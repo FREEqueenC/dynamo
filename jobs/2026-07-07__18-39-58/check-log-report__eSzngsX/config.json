@@ -1,0 +1,12 @@
+{
+    "task": {
+        "path": "C:\\Users\\Ashle\\AppData\\Local\\Temp\\harbor-check-ar149mpg\\check-log-report"
+    },
+    "trial_name": "check-log-report__eSzngsX",
+    "trials_dir": "jobs\\2026-07-07__18-39-58",
+    "agent": {
+        "name": "claude-code",
+        "model_name": "claude-sonnet-4-6"
+    },
+    "job_id": "53e4b3cc-42ea-4df6-9f31-5f6c71da679d"
+}

@@ -1,0 +1,1083 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,6881924,2677904,4380490,8991941,3744012,3815594,7227066,2581710,e=>{"use strict";var t,a,i,o,n,r,s,l,c,d,p,m,u,E,g,h,f,b,v,S,A,I,T,N,O,_,R,L,x=e.i(5271645);let D="https://[subdomain]joinhandshake.com";(t=g||(g={})).CONSUMER="consumer",t.STUDENT="student",t.HAI="hai",t.LEARN="learn",t.EDU="edu",t.EMP="emp",t.RECRUITER="recruiter",(a=h||(h={})).CORE="CORE",a.HAI="HAI",a.LEARN="LEARN",(i=f||(f={})).Admins="ADMINS",i.CareerServices="CAREER_SERVICES",i.Employers="EMPLOYERS",i.Mentors="MENTORS",i.Prospects="PROSPECTS",i.Students="STUDENTS",(o=b||(b={})).STANDARD_LINK="standardLink",o.ICON_LINK="iconLink",o.APP_BUTTON_LINK="appButtonLink",o.CUSTOM_LINK="customLink",o.LIST_DIVIDER="divider",o.COPYABLE_ID="copyableId",o.GROUP_LABEL="groupLabel",(n=v||(v={})).EXPANDED="expanded",n.COLLAPSIBLE="collapsible",(r=S||(S={})).BASIC="core",r.PRO="pro",r.PLUS="self_service_standard",r.ENTERPRISE="talent_engagement_suite",(s=A||(A={})).SIDEBAR="sidebar",s.TOPBAR_PAGE_NAV="topbar-pagenav",s.TOPBAR_ACCOUNT_NAV="topbar-accountnav",s.TOPBAR_ACCOUNT_MENU="topbar-accountmenu",(l=I||(I={})).BLANK="_blank",l.SELF="_self",(c=T||(T={})).Number="Number",c.Text="Text",c.Indicator="Indicator",(d=N||(N={})).Positive="Positive",d.Negative="Negative",d.Warning="Warning",d.Info="Info",(p=O||(O={})).HOME="home",p.FEED="feed",p.YOUR_PROFILE="yourProfile",p.INBOX="inbox",p.DIVIDER="divider",p.OPEN_EMPLOYER="openEmployer",p.OPEN_EDU="openEdu",p.JOBS="jobs",p.HAI_DIVIDER="haiDivider",p.HAI_FELLOW="haiFellow",p.LEARN="learn",p.EVENTS="events",p.PEOPLE="people",p.EMPLOYERS="employers",p.LEVEL_UP="levelUp",p.CAREER_CENTER="careerCenter",p.Q_AND_A="qAndA",p.STUDENTS="students",p.LIVE_RENT_FREE="liveRentFree",p.LIVE_RENT_FREE_DIVIDER="liveRentFreeDivider",p.LOGO="logo",p.HAI_ADMIN_FAKE_EXPLORE="haiAdminFakeExplore",p.HAI_ADMIN_FAKE_FEED="haiAdminFakeFeed",p.HAI_ADMIN_FAKE_INBOX="haiAdminFakeInbox",p.HAI_ADMIN_FAKE_DIVIDER="haiAdminFakeDivider",p.HAI_ADMIN_FAKE_JOBS="haiAdminFakeJobs",p.HAI_ADMIN_FAKE_EVENTS="haiAdminFakeEvents",p.HAI_ADMIN_FAKE_PEOPLE="haiAdminFakePeople",p.HAI_ADMIN_FAKE_EMPLOYERS="haiAdminFakeEmployers",p.HAI_ADMIN_FAKE_CAREER_CENTER="haiAdminFakeCareerCenter",p.MY_PROFILE="myProfileSideNav",p.BRAND="brand",p.EMP_DIVIDER="empDivider",p.GROUP_TALENT="groupTalentEngagement",p.TALENT_SEGMENTS="talentEngagementSegments",p.TALENT_CAMPAIGNS="talentEngagementCampaigns",p.TALENT_ANALYTICS="talentEngagementAnalytics",p.GROUP_POSTINGS="groupPostings",p.POSTINGS_JOBS="postingsJobs",p.GROUP_RELATIONS="groupRelations",p.RELATIONS_TALENT="relationsTalent",p.RELATIONS_SCHOOLS="relationsSchools",p.RELATIONS_CONTACTS="relationsContacts",p.GROUP_MEET="groupMeet",p.MEET_EVENTS="meetEvents",p.MEET_MEETINGS="meetMeetings",p.MEET_INTERVIEWS="meetInterviews",p.MEET_FAIRS="meetFairs",p.POSTS="posts",p.INSTITUTION="institution",p.EDU_DIVIDER="eduDivider",p.GROUP_STUDENTS="groupStudents",p.STUDENTS_MANAGE="studentsManage",p.STUDENTS_EXPERIENCES="studentsExperiences",p.STUDENTS_APPLICATIONS="studentsApplications",p.STUDENTS_FIRST_DESTINATION="studentsFirstDestination",p.STUDENTS_REVIEWS="studentsReviews",p.GROUP_COMMUNICATE="groupCommunicate",p.COMMUNICATE_EMAILS="communicateEmails",p.COMMUNICATE_RESOURCES="communicateResources",p.COMMUNICATE_COLLECTIONS="communicateCollections",p.GROUP_SCHEDULE="groupSchedule",p.SCHEDULE_EVENTS="scheduleEvents",p.SCHEDULE_FAIRS="scheduleFairs",p.SCHEDULE_APPOINTMENTS="scheduleAppointments",p.GROUP_JOBS="groupJobs",p.JOBS_POSTINGS="jobsPostings",p.JOBS_INTERVIEWS="jobsInterviews",p.GROUP_RELATIONSHIPS="groupRelationships",p.RELATIONSHIPS_EMPLOYERS="relationshipsEmployers",p.RELATIONSHIPS_CONTACTS="relationshipsContacts",p.RELATIONSHIPS_ALUMNI="relationshipsAlumni",p.GROUP_DATA="groupData",p.DATA_ANALYTICS="dataAnalytics",p.DATA_SURVEYS="dataSurveys",p.DATA_INVOICES="dataInvoices",(m=_||(_={})).ROOT_CONSUMER="Root-consumer",m.ROOT_STUDENT="Root-student",m.ROOT_EMPLOYER="Root-emp",m.ROOT_EDU="Root-edu",m.ROOT_HAI="Root-hai",m.EXPLORE="explore",m.FEED="feed",m.JOBS="jobs",m.FOR_YOU="forYou",m.SAVED_FEED="savedFeed",m.JOB_SEARCH="jobSearch",m.SAVED_JOBS="savedJobs",m.SIDEKICK="sidekick",m.JOB_TRACKER="jobTracker",m.JOBS_HOME="jobsHome",m.JOB_COLLECTIONS="jobCollections",m.JOB="job",m.HOME="home",m.EVENTS="events",m.INBOX="inbox",m.NOTIFICATIONS="notifications",m.EMPLOYERS="employers",m.PEOPLE="people",m.CAREER_CENTER="careerCenter",m.PROFILE="profile",m.HAI_HOME="haiHome",m.FELLOWS="fellows",m.FELLOW_HOME="fellowHome",m.PAYMENTS="payments",m.PAYMENTS_SETUP="paymentsSetup",m.REFERRALS="referrals",m.PROJECT="project",m.PROJECT_TASKS="projectTasks",m.PROJECTS_HOME="projectsHome",m.PROJECTS_INVITATION="projectsInvitation",m.FELLOW_DASHBOARD="fellowDashboard",m.FELLOW_WELCOME="fellowWelcome",m.FELLOW_FORMS="fellowForms",m.FELLOW_INTERVIEW_COMPLETED="fellowInterviewCompleted",m.FELLOW_MOVE_APPLICATION="fellowMoveApplication",m.FELLOW_ONBOARDING_WEBINAR="fellowOnboardingWebinar",m.FELLOW_THANK_YOU="fellowThankYou",m.CUSTOMERS_HOME="customersHome",m.CUSTOMERS_DASHBOARD="customersDashboard",m.CUSTOMERS_CONTRACT="customersContract",m.FELLOWS_BPO_HOME="fellowsBpoHome",m.FELLOWS_BPO_DASHBOARD="fellowsBpoDashboard",m.DEACTIVATED="deactivated",m.LEVEL_UP="levelUp",m.GEMINI_PROMO="geminiPromo",m.APPLICATIONS="applications",m.DOCUMENTS="documents",m.MY_MEETINGS="myMeetings",m.CAREER_INTERESTS="careerInterests",m.NOTIFICATION_PREFERENCES="notificationPreferences",m.AFFILIATIONS="affiliations",m.SETTINGS="settings",m.SWITCH_USERS="switchUsers",m.VIEW_ALL_TOGGLES="viewAllToggles",m.BLOCKED_USERS="blockedUsers",m.OPERATOR_ROLES="operatorRoles",m.OPERATOR_ROLES_OVERVIEW="operatorRolesOverview",m.OPERATOR_ROLES_CONFIGURATIONS="operatorRolesConfigurations",m.OPERATOR_PAYMENTS="operatorPayments",m.OPERATOR_PAY_RATES="operatorPayRates",m.OPERATOR_INCENTIVES="operatorIncentives",(u=R||(R={})).OPEN_EMPLOYER_APP="openEmployerApp",u.OPEN_EDU_APP="openEduApp",u.NOTIFICATIONS="notifications",u.HELP="help",u.ACCOUNT_AVATAR="accountAvatar",u.MY_PROFILE="myProfile",u.HAI_PROFILE_ID="haiProfileId",u.MY_JOBS="myJobs",u.MY_MEETINGS="myMeetings",u.MY_DOCUMENTS="myDocuments",u.CAREER_INTERESTS="careerInterests",u.MY_REVIEWS="myReviews",u.NOTIFICATION_PREFERENCES="notificationPreferences",u.SCHOOL_CONNECTIONS="schoolConnections",u.SETTINGS="settings",u.SWITCH_USERS="switchUsers",u.CONTACT_SUPPORT="contactSupport",u.HELP_CENTER="helpCenter",u.TERMS_OF_SERVICE="termsOfService",u.SWITCH_TO_EMPLOYER="switchToEmployer",u.SWITCH_TO_EDU="switchToEdu",u.SWITCH_TO_ADMIN="switchToAdmin",u.HAI_ANNOTATIONS="haiAnnotations",u.HAI_ADMIN="haiAdmin",u.HAI_PAYOUTS="haiPayouts",u.HAI_FELLOW_DASHBOARD="haiFellowDashboard",u.LOGOUT="logout",u.VIEW_ALL_TOGGLES="viewAllToggles",u.PROFILE_SECTION_DIVIDER="profileSectionDivider",u.SWITCH_SECTION_DIVIDER="switchSectionDivider",u.SUPPORT_SECTION_DIVIDER="supportSectionDivider",u.ENTERPRISE_SECTION_DIVIDER="enterpriseSectionDivider",u.TOGGLES_SECTION_DIVIDER="togglesSectionDivider",u.DEV_ACCOUNTS_DIVIDER="devAccountsDivider";let C=[O.HOME,O.HAI_ADMIN_FAKE_EXPLORE,O.JOBS,O.HAI_ADMIN_FAKE_JOBS,O.YOUR_PROFILE,O.INBOX,O.HAI_ADMIN_FAKE_INBOX,O.DIVIDER,O.HAI_ADMIN_FAKE_DIVIDER,O.OPEN_EMPLOYER,O.OPEN_EDU,O.FEED,O.HAI_ADMIN_FAKE_FEED,O.LEVEL_UP,O.EVENTS,O.HAI_ADMIN_FAKE_EVENTS,O.PEOPLE,O.HAI_ADMIN_FAKE_PEOPLE,O.EMPLOYERS,O.HAI_ADMIN_FAKE_EMPLOYERS,O.CAREER_CENTER,O.HAI_ADMIN_FAKE_CAREER_CENTER,O.Q_AND_A,O.STUDENTS,O.LIVE_RENT_FREE,O.LIVE_RENT_FREE_DIVIDER,O.HAI_DIVIDER,O.HAI_FELLOW,O.LEARN],y=[O.HOME,O.MY_PROFILE,O.BRAND,O.EMP_DIVIDER,O.GROUP_TALENT,O.TALENT_SEGMENTS,O.TALENT_CAMPAIGNS,O.TALENT_ANALYTICS,O.GROUP_POSTINGS,O.POSTINGS_JOBS,O.GROUP_RELATIONS,O.RELATIONS_TALENT,O.RELATIONS_SCHOOLS,O.RELATIONS_CONTACTS,O.GROUP_MEET,O.MEET_EVENTS,O.MEET_MEETINGS,O.MEET_INTERVIEWS,O.MEET_FAIRS],w=[O.HOME,O.POSTS,O.MY_PROFILE,O.INSTITUTION,O.EDU_DIVIDER,O.GROUP_STUDENTS,O.STUDENTS_MANAGE,O.STUDENTS_EXPERIENCES,O.STUDENTS_APPLICATIONS,O.STUDENTS_FIRST_DESTINATION,O.STUDENTS_REVIEWS,O.GROUP_COMMUNICATE,O.COMMUNICATE_EMAILS,O.COMMUNICATE_RESOURCES,O.COMMUNICATE_COLLECTIONS,O.GROUP_SCHEDULE,O.SCHEDULE_EVENTS,O.SCHEDULE_FAIRS,O.SCHEDULE_APPOINTMENTS,O.GROUP_JOBS,O.JOBS_POSTINGS,O.JOBS_INTERVIEWS,O.GROUP_RELATIONSHIPS,O.RELATIONSHIPS_EMPLOYERS,O.RELATIONSHIPS_CONTACTS,O.RELATIONSHIPS_ALUMNI,O.GROUP_DATA,O.DATA_ANALYTICS,O.DATA_SURVEYS,O.DATA_INVOICES],k={[O.HOME]:b.STANDARD_LINK,[O.FEED]:b.STANDARD_LINK,[O.YOUR_PROFILE]:b.STANDARD_LINK,[O.INBOX]:b.STANDARD_LINK,[O.DIVIDER]:b.LIST_DIVIDER,[O.OPEN_EMPLOYER]:b.STANDARD_LINK,[O.OPEN_EDU]:b.STANDARD_LINK,[O.JOBS]:b.STANDARD_LINK,[O.EVENTS]:b.STANDARD_LINK,[O.PEOPLE]:b.STANDARD_LINK,[O.EMPLOYERS]:b.STANDARD_LINK,[O.LEVEL_UP]:b.STANDARD_LINK,[O.CAREER_CENTER]:b.STANDARD_LINK,[O.Q_AND_A]:b.STANDARD_LINK,[O.STUDENTS]:b.STANDARD_LINK,[O.LIVE_RENT_FREE]:b.STANDARD_LINK,[O.LIVE_RENT_FREE_DIVIDER]:b.LIST_DIVIDER,[O.HAI_DIVIDER]:b.LIST_DIVIDER,[O.HAI_FELLOW]:b.STANDARD_LINK,[O.LEARN]:b.STANDARD_LINK,[O.LOGO]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_EXPLORE]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_FEED]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_INBOX]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_DIVIDER]:b.LIST_DIVIDER,[O.HAI_ADMIN_FAKE_JOBS]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_EVENTS]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_PEOPLE]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_EMPLOYERS]:b.STANDARD_LINK,[O.HAI_ADMIN_FAKE_CAREER_CENTER]:b.STANDARD_LINK,[O.MY_PROFILE]:b.STANDARD_LINK,[O.BRAND]:b.STANDARD_LINK,[O.EMP_DIVIDER]:b.LIST_DIVIDER,[O.GROUP_TALENT]:b.GROUP_LABEL,[O.TALENT_SEGMENTS]:b.STANDARD_LINK,[O.TALENT_CAMPAIGNS]:b.STANDARD_LINK,[O.TALENT_ANALYTICS]:b.STANDARD_LINK,[O.GROUP_POSTINGS]:b.GROUP_LABEL,[O.POSTINGS_JOBS]:b.STANDARD_LINK,[O.GROUP_RELATIONS]:b.GROUP_LABEL,[O.RELATIONS_TALENT]:b.STANDARD_LINK,[O.RELATIONS_SCHOOLS]:b.STANDARD_LINK,[O.RELATIONS_CONTACTS]:b.STANDARD_LINK,[O.GROUP_MEET]:b.GROUP_LABEL,[O.MEET_EVENTS]:b.STANDARD_LINK,[O.MEET_MEETINGS]:b.STANDARD_LINK,[O.MEET_INTERVIEWS]:b.STANDARD_LINK,[O.MEET_FAIRS]:b.STANDARD_LINK,[O.POSTS]:b.STANDARD_LINK,[O.INSTITUTION]:b.STANDARD_LINK,[O.EDU_DIVIDER]:b.LIST_DIVIDER,[O.GROUP_STUDENTS]:b.GROUP_LABEL,[O.STUDENTS_MANAGE]:b.STANDARD_LINK,[O.STUDENTS_EXPERIENCES]:b.STANDARD_LINK,[O.STUDENTS_APPLICATIONS]:b.STANDARD_LINK,[O.STUDENTS_FIRST_DESTINATION]:b.STANDARD_LINK,[O.STUDENTS_REVIEWS]:b.STANDARD_LINK,[O.GROUP_COMMUNICATE]:b.GROUP_LABEL,[O.COMMUNICATE_EMAILS]:b.STANDARD_LINK,[O.COMMUNICATE_RESOURCES]:b.STANDARD_LINK,[O.COMMUNICATE_COLLECTIONS]:b.STANDARD_LINK,[O.GROUP_SCHEDULE]:b.GROUP_LABEL,[O.SCHEDULE_EVENTS]:b.STANDARD_LINK,[O.SCHEDULE_FAIRS]:b.STANDARD_LINK,[O.SCHEDULE_APPOINTMENTS]:b.STANDARD_LINK,[O.GROUP_JOBS]:b.GROUP_LABEL,[O.JOBS_POSTINGS]:b.STANDARD_LINK,[O.JOBS_INTERVIEWS]:b.STANDARD_LINK,[O.GROUP_RELATIONSHIPS]:b.GROUP_LABEL,[O.RELATIONSHIPS_EMPLOYERS]:b.STANDARD_LINK,[O.RELATIONSHIPS_CONTACTS]:b.STANDARD_LINK,[O.RELATIONSHIPS_ALUMNI]:b.STANDARD_LINK,[O.GROUP_DATA]:b.GROUP_LABEL,[O.DATA_ANALYTICS]:b.STANDARD_LINK,[O.DATA_SURVEYS]:b.STANDARD_LINK,[O.DATA_INVOICES]:b.STANDARD_LINK,[R.OPEN_EMPLOYER_APP]:b.APP_BUTTON_LINK,[R.OPEN_EDU_APP]:b.APP_BUTTON_LINK,[R.NOTIFICATIONS]:b.ICON_LINK,[R.HELP]:b.STANDARD_LINK,[R.ACCOUNT_AVATAR]:b.STANDARD_LINK,[R.MY_PROFILE]:b.STANDARD_LINK,[R.HAI_PROFILE_ID]:b.COPYABLE_ID,[R.MY_JOBS]:b.STANDARD_LINK,[R.MY_MEETINGS]:b.STANDARD_LINK,[R.MY_DOCUMENTS]:b.STANDARD_LINK,[R.CAREER_INTERESTS]:b.STANDARD_LINK,[R.MY_REVIEWS]:b.STANDARD_LINK,[R.NOTIFICATION_PREFERENCES]:b.STANDARD_LINK,[R.SCHOOL_CONNECTIONS]:b.STANDARD_LINK,[R.SETTINGS]:b.STANDARD_LINK,[R.SWITCH_USERS]:b.STANDARD_LINK,[R.CONTACT_SUPPORT]:b.STANDARD_LINK,[R.HELP_CENTER]:b.STANDARD_LINK,[R.TERMS_OF_SERVICE]:b.STANDARD_LINK,[R.SWITCH_TO_EMPLOYER]:b.STANDARD_LINK,[R.SWITCH_TO_EDU]:b.STANDARD_LINK,[R.SWITCH_TO_ADMIN]:b.STANDARD_LINK,[R.HAI_ANNOTATIONS]:b.STANDARD_LINK,[R.HAI_ADMIN]:b.STANDARD_LINK,[R.HAI_PAYOUTS]:b.STANDARD_LINK,[R.HAI_FELLOW_DASHBOARD]:b.STANDARD_LINK,[R.LOGOUT]:b.STANDARD_LINK,[R.VIEW_ALL_TOGGLES]:b.STANDARD_LINK,[R.PROFILE_SECTION_DIVIDER]:b.LIST_DIVIDER,[R.SWITCH_SECTION_DIVIDER]:b.LIST_DIVIDER,[R.SUPPORT_SECTION_DIVIDER]:b.LIST_DIVIDER,[R.ENTERPRISE_SECTION_DIVIDER]:b.LIST_DIVIDER,[R.TOGGLES_SECTION_DIVIDER]:b.LIST_DIVIDER,[R.DEV_ACCOUNTS_DIVIDER]:b.LIST_DIVIDER},P=[R.MY_PROFILE,R.HAI_PROFILE_ID,R.MY_JOBS,R.MY_MEETINGS,R.MY_DOCUMENTS,R.CAREER_INTERESTS,R.MY_REVIEWS,R.PROFILE_SECTION_DIVIDER,R.HAI_ANNOTATIONS,R.HAI_ADMIN,R.HAI_PAYOUTS,R.HAI_FELLOW_DASHBOARD,R.NOTIFICATION_PREFERENCES,R.SCHOOL_CONNECTIONS,R.SETTINGS,R.SWITCH_SECTION_DIVIDER,R.SWITCH_USERS,R.SUPPORT_SECTION_DIVIDER,R.CONTACT_SUPPORT,R.HELP_CENTER,R.TERMS_OF_SERVICE,R.ENTERPRISE_SECTION_DIVIDER,R.SWITCH_TO_EMPLOYER,R.SWITCH_TO_EDU,R.SWITCH_TO_ADMIN,R.LOGOUT,R.TOGGLES_SECTION_DIVIDER,R.VIEW_ALL_TOGGLES,R.DEV_ACCOUNTS_DIVIDER],M=Object.entries({[g.CONSUMER]:{name:g.CONSUMER,appType:h.CORE,rootPath:"/",navItemTypeMap:Object.assign(Object.assign({},k),{[O.FEED]:b.CUSTOM_LINK,[O.YOUR_PROFILE]:b.CUSTOM_LINK,[O.INBOX]:b.CUSTOM_LINK,[O.JOBS]:b.CUSTOM_LINK,[O.PEOPLE]:b.CUSTOM_LINK,[O.EMPLOYERS]:b.CUSTOM_LINK,[O.LEVEL_UP]:b.CUSTOM_LINK,[R.NOTIFICATIONS]:b.CUSTOM_LINK,[R.MY_PROFILE]:b.CUSTOM_LINK,[R.MY_JOBS]:b.CUSTOM_LINK,[R.MY_DOCUMENTS]:b.CUSTOM_LINK,[R.NOTIFICATION_PREFERENCES]:b.CUSTOM_LINK,[R.SCHOOL_CONNECTIONS]:b.CUSTOM_LINK,[R.CONTACT_SUPPORT]:b.CUSTOM_LINK})},[g.STUDENT]:{name:g.STUDENT,appType:h.CORE,rootPath:"/stu",navItemTypeMap:Object.assign(Object.assign({},k),{[R.CONTACT_SUPPORT]:b.CUSTOM_LINK})},[g.HAI]:{name:g.HAI,appType:h.HAI,rootPath:"/",navItemTypeMap:Object.assign(Object.assign({},k),{[R.CONTACT_SUPPORT]:b.CUSTOM_LINK})},[g.LEARN]:{name:g.LEARN,appType:h.LEARN,rootPath:"/",navItemTypeMap:Object.assign({},k)},[g.EDU]:{name:g.EDU,appType:h.CORE,rootPath:"/edu",navItemTypeMap:Object.assign({},k)},[g.EMP]:{name:g.EMP,appType:h.CORE,rootPath:"/emp",navItemTypeMap:Object.assign({},k)},[g.RECRUITER]:{name:g.RECRUITER,appType:h.CORE,rootPath:"/emp",navItemTypeMap:Object.assign({},k)}}).reduce((e,[t,a])=>Object.assign(Object.assign({},e),{[t]:Object.assign(Object.assign({},a),{subdomain:a.appType===h.HAI?"ai":"app",baseUrl:a.appType===h.LEARN?`${D.replace("[subdomain]","app.")}/learn`:D.replace("[subdomain]",`${a.appType===h.CORE?"app":"ai"}.`)})}),{}),H=[{name:_.ROOT_CONSUMER,children:[_.EXPLORE,_.HOME,_.FEED,_.JOBS,_.EVENTS,_.INBOX,_.EMPLOYERS,_.PEOPLE,_.CAREER_CENTER]},{name:_.ROOT_STUDENT,children:[_.EXPLORE,_.HOME,_.FEED,_.PROFILE,_.JOBS,_.EVENTS,_.INBOX,_.EMPLOYERS,_.PEOPLE,_.CAREER_CENTER]},{name:_.ROOT_HAI,children:[_.PROJECTS_HOME,_.PAYMENTS,_.REFERRALS,_.OPERATOR_ROLES,_.OPERATOR_PAYMENTS]},{name:_.OPERATOR_ROLES,children:[_.OPERATOR_ROLES_OVERVIEW,_.OPERATOR_ROLES_CONFIGURATIONS]},{name:_.OPERATOR_ROLES_OVERVIEW},{name:_.OPERATOR_ROLES_CONFIGURATIONS},{name:_.OPERATOR_PAYMENTS,children:[_.OPERATOR_PAY_RATES,_.OPERATOR_INCENTIVES]},{name:_.OPERATOR_PAY_RATES},{name:_.OPERATOR_INCENTIVES},{name:_.FEED,children:[_.FOR_YOU,_.SAVED_FEED]},{name:_.EXPLORE},{name:_.JOBS,children:[_.JOB_SEARCH,_.SAVED_JOBS,_.JOBS_HOME,_.JOB_COLLECTIONS,_.JOB]},{name:_.FOR_YOU},{name:_.SAVED_FEED},{name:_.JOB_SEARCH},{name:_.SAVED_JOBS},{name:_.JOBS_HOME},{name:_.JOB_COLLECTIONS},{name:_.JOB},{name:_.HOME},{name:_.EVENTS},{name:_.INBOX},{name:_.EMPLOYERS},{name:_.PEOPLE},{name:_.CAREER_CENTER},{name:_.FELLOWS},{name:_.FELLOW_HOME},{name:_.PROJECTS_HOME},{name:_.PROJECT},{name:_.PROJECT_TASKS},{name:_.PAYMENTS},{name:_.PAYMENTS_SETUP},{name:_.REFERRALS},{name:_.PROJECTS_INVITATION},{name:_.FELLOW_DASHBOARD},{name:_.FELLOW_WELCOME},{name:_.FELLOW_FORMS},{name:_.FELLOW_INTERVIEW_COMPLETED},{name:_.FELLOW_MOVE_APPLICATION},{name:_.FELLOW_ONBOARDING_WEBINAR},{name:_.FELLOW_THANK_YOU},{name:_.CUSTOMERS_HOME},{name:_.CUSTOMERS_DASHBOARD},{name:_.CUSTOMERS_CONTRACT},{name:_.FELLOWS_BPO_HOME},{name:_.FELLOWS_BPO_DASHBOARD},{name:_.PROFILE},{name:_.NOTIFICATIONS},{name:_.DEACTIVATED},{name:_.APPLICATIONS},{name:_.DOCUMENTS},{name:_.MY_MEETINGS},{name:_.CAREER_INTERESTS},{name:_.NOTIFICATION_PREFERENCES},{name:_.AFFILIATIONS},{name:_.SETTINGS},{name:_.SWITCH_USERS},{name:_.VIEW_ALL_TOGGLES},{name:_.BLOCKED_USERS}],U={primaryNavigation:"Primary navigation",beta:"Beta",careerCenter:"Career center",coco:"Coco",giveaway:"Giveaway",employers:"Employers",events:"Events",explore:"Explore",feed:"Feed",groups:"Groups",home:"Home",homepage:"Handshake Homepage",homepageBasic:"Handshake Basic Homepage",homepagePro:"Handshake Pro Homepage",homepagePlus:"Handshake Plus Homepage",homepageEnterprise:"Handshake Enterprise Homepage",tierBasic:"Basic",tierPro:"Pro",tierPlus:"Plus",tierEnterprise:"Enterprise",inbox:"Inbox",inboxAriaLabel:"Inbox - %{count} unread message.",inboxAriaLabel_plural:"Inbox - %{count} unread messages.",notifications:"Notifications",aiWork:"AI work",handshakeAI:"AI work",learn:"Learn",jobs:"Jobs",aiShowcase:"AI showcase",levelUp:"Level up",codexCreatorChallenge:"Codex Creator Challenge",buildFreeWithAi:"Build free with AI",getGeminiAiPlusFree:"Try Google AI Plus",new:"New",people:"People",qAndA:"Q&A",students:"Students",yourProfile:"Profile",profileView:"%{profileViews} profile view",profileView_other:"%{profileViews} profile views",inPastNinetyDays:"in the past 90 days",openEmployer:"Employer app",openEdu:"Edu app",logInToSeeFullProfile:"Log in to see %{name}’s full profile",logIn:"Log in",newToHandshake:"New to Handshake?",signUp:"Sign up",joinTheMission:"and join the better career network and job platform, built for Gen Z.",handshakeLoginPage:"Handshake login page",getTheApp:"Get the app",betterOnTheApp:"It’s better on the app",mobileUpsellModalBody:"Everything the website does for on-the-go career support. Plus reminders so you never miss a thing.",closeModal:"Close modal",altQRCodeIcon:"QR code icon",altQRCode:"QR code",altAppleAppStore:"Apple App Store",altGooglePlay:"Google Play Store",openEmployerApp:"Open employer app",openEduApp:"Open Edu app",notificationsAriaLabel:"Notifications - %{count} unseen notification.",notificationsAriaLabel_plural:"Notifications - %{count} unseen notifications.",help:"Help",myProfile:"Profile",fellowId:"Fellow ID",userId:"User ID",annotations:"Annotations",admin:"Admin",payouts:"Payouts",fellowDashboard:"Fellow Dashboard",copiedToClipboard:"Copied to clipboard",failedToCopyToClipboard:"Failed to copy to clipboard:",myJobs:"My jobs",myJobsAriaLabel:"My jobs - %{count} update.",myJobsAriaLabel_plural:"My jobs - %{count} updates.",myMeetings:"Meetings",myDocuments:"Documents",myCareerInterests:"Career interests",myReviews:"Reviews",notificationPreferences:"Notification preferences",schoolConnections:"School connections",settings:"Settings",switchUsers:"Switch users",contactSupport:"Support",helpCenter:"Help center",termsOfService:"Terms of Service",switchToEmployer:"Open employer app",switchToCareerServices:"Open Edu app",switchToAdmin:"Switch to HS Admin",logOut:"Log out",viewAllToggles:"View all toggles",forYou:"For you",saved:"Saved",topBarNavTab:"Top bar navigation tabs",more:"More",jobSearch:"Search",savedJobs:"Saved",sidekick:"Optimize resume",projects:"Projects",payments:"Payments",referrals:"Referrals",roles:"Roles",rolesOverview:"Overview",rolesConfigurations:"Configurations",payRates:"Pay rates",incentives:"Incentives",backNavigation:"Back Navigation",jobsForYou:"Jobs for you",affiliations:"School connections",blockedUsers:"Blocked users",eduProfile:"Profile",empProfile:"My Profile",brand:"Brand page",talent:"Talent",talentEngagement:"Talent Engagement",talentSegments:"Segments",talentCampaigns:"Campaigns",talentAnalytics:"Analytics",postings:"Postings",relations:"Relationships",schools:"Schools",contacts:"Contacts",meet:"Meet",meetings:"Meetings",interviews:"Interviews",fairs:"Fairs",posts:"Posts",school:"School",manageStudents:"Manage",experiences:"Experiences",applications:"Applications",firstDestination:"First Destination",reviews:"Reviews",groupCommunicate:"Communicate",communicateEmails:"Emails",communicateResources:"Resources",communicateCollections:"Collections",groupSchedule:"Schedule",scheduleEvents:"Events",scheduleFairs:"Fairs",scheduleAppointments:"Appointments",groupJobs:"Jobs",jobsPostings:"Job Postings",jobsInterviews:"Interviews",groupRelationships:"Relationships",relationshipsEmployers:"Employers",relationshipsContacts:"Contacts",relationshipsAlumni:"Alumni",groupData:"Data",dataAnalytics:"Analytics",dataSurveys:"Surveys",dataInvoices:"Invoices",devAccounts:"Dev accounts",accountMenu:"Account menu",openProfileOptions:"Open profile options",closeSubmenu:"Close submenu",profileDropdown:"Profile dropdown"};e.s(["AccountMenuItemsOrder",0,P,"AppName",0,g,"AppType",0,h,"BadgeStatus",0,N,"BadgeType",0,T,"NavItemLocation",0,A,"NavItemTarget",0,I,"NavItemType",0,b,"PageMap",0,H,"PageNavItemNames",0,_,"ProductTier",0,S,"SideNavGroupStyle",0,v,"SideNavItemNames",0,O,"SideNavItemsOrder",0,C,"SideNavItemsOrderEDU",0,w,"SideNavItemsOrderEMP",0,y,"TopNavItemNames",0,R,"UserTypeEnum",0,f,"appInfoMap",0,M,"displayStrings",0,U],2677904);let F=({coreAppBaseUrl:e,haiAppBaseUrl:t,learnAppBaseUrl:a})=>x.useMemo(()=>(({coreAppBaseUrl:e,haiAppBaseUrl:t,learnAppBaseUrl:a})=>Object.entries(M).reduce((i,[o,n])=>Object.assign(Object.assign({},i),{[o]:Object.assign(Object.assign(Object.assign(Object.assign({},n),e&&n.appType===h.CORE?{baseUrl:e}:{}),t&&n.appType===h.HAI?{baseUrl:t}:{}),a&&n.appType===h.LEARN?{baseUrl:a}:{})}),{}))({coreAppBaseUrl:e,haiAppBaseUrl:t,learnAppBaseUrl:a}),[e,t,a]),B=(e,t,a)=>{if(!e)return;let i=Number(t);if(Number.isNaN(i)||i<=0)return a(e);if(i>1){let t=`${e}_plural`,o=`${e}_other`;try{let e=a(t,{count:String(i)});if(e&&e!==t)return e}catch(e){}try{let e=a(o,{count:String(i)});if(e&&e!==o)return e}catch(e){}}return a(e,{count:String(i)})};function j(e,t={}){return U[e].replace(/%{(\w+)}/g,(e,a)=>a in t?String(t[a]):e)}function V(e=j){return(t,a={})=>e(t,a)}e.i(6247167);var K=e.i(8290571),z=e.i(8912911);let $=(e,t=z.IconSize.ExtraSmall)=>{if(e){if(x.isValidElement(e))return e;if("string"==typeof e){let a=z.Rosetta[e];if(a)return x.createElement(a,{width:t,height:t})}}},G=(e,t)=>!!t&&"/"!==t&&"/stu"!==t&&"/emp"!==t&&!!(e===t||e.startsWith(`${t}/`)),Y=(e,t,a)=>a?{[e]:t}:{},W=({name:e,data:t,location:a,currentAppInfo:i,appInfoMap:o,itemsOrder:n})=>{var r,s,l,c,d;let p={itemRenderType:i.navItemTypeMap[e],href:"/",name:e,location:a,currentAppName:i.name},{href:m,itemRenderType:u,itemHomeApp:E}=t,g=(0,K.__rest)(t,["href","itemRenderType","itemHomeApp"]),h={href:m,itemRenderType:u,itemHomeApp:E},f=(n||[]).indexOf(e),v=a===A.SIDEBAR?z.IconSize.ExtraSmall:z.IconSize.Medium,S=Object.assign(Object.assign({},g),{show:null!=(r=g.show)&&r,order:null!=(s=g.order)?s:f>=0?f:0,text:null!=(l=g.text)?l:"",ariaLabel:null!=(c=g.ariaLabel)?c:"",icon:$(g.icon,v),fillIcon:$(g.fillIcon,v),resolvedHref:(({itemName:e,href:t,currentAppName:a,itemHomeApp:i,appInfoMap:o})=>{let{navItemTypeMap:n,appType:r}=o[a],{appType:s,baseUrl:l}=o[i],c=n[e],d=t.startsWith("http://")||t.startsWith("https://");return c===b.CUSTOM_LINK||s===r||d?t:`${l}${t}`})({itemName:e,href:h.href||p.href,itemHomeApp:t.itemHomeApp,currentAppName:i.name,appInfoMap:o})}),I=Object.assign(Object.assign(Object.assign({},p),{options:S}),Object.fromEntries(Object.entries(h).filter(([e,t])=>void 0!==t)));return I.options.isSelected=null!=(d=I.options.isSelected)?d:((e,t)=>{let{href:a,options:{siblingPaths:i=[]}}=e,o=a.split("?")[0]||"";return t===a||G(t,a)||G(t,o)||t.includes("/content")&&"/feed"===a||t.includes("/e/")&&"/employer-search"===a||i.some(e=>t===e||G(t,e))})(I,i.currentPath||"/"),I};function J({navItems:e,location:t,currentAppInfo:a,appInfoMap:i,itemsOrder:o}){var n;let r=Object.entries(e).filter(([,e])=>e.show).map(([e,n])=>W({name:e,data:n,location:t,currentAppInfo:a,appInfoMap:i,itemsOrder:o})),s=new Map,l=[];for(let e of r){let t=e.options.group;t?(s.has(t)||s.set(t,[]),null==(n=s.get(t))||n.push(e)):l.push(e)}if(s.size>0){let e=new Set;for(let t of l)if(t.itemRenderType===b.GROUP_LABEL){t.options.isSelected=!1;let a=s.get(t.name);a&&(t.children=a.sort((e,t)=>{var a,i;return(null!=(a=e.options.order)?a:0)-(null!=(i=t.options.order)?i:0)}),e.add(t.name))}for(let[t,a]of s)e.has(t)||l.push(...a)}return l.sort((e,t)=>{var a,i;return(null!=(a=e.options.order)?a:0)-(null!=(i=t.options.order)?i:0)})}e.i(7264217);var X=e.i(2782604);function q(e,t){var a;let i=null==(a=null==e?void 0:e.options)?void 0:a.tracking,o=null==i?void 0:i.name,n=null==i?void 0:i.trackingData,r=null==i?void 0:i.schemaflowFactory,s=null==i?void 0:i.marks,l=null==i?void 0:i.isExcluded,c=(0,X.useClickTracking)({eventName:o||"",trackingData:n,schemaflowFactory:r,marks:s}),d=x.useCallback(e=>{c()(e)},[c]);if(o&&!l){let e=t.props.onClickCapture;return x.cloneElement(t,{onClickCapture:e?t=>{d(t),e(t)}:d})}return t}function Q({navItem:e,standardElement:t,customItemType:a,linkElementsMap:i}){if(e.itemRenderType===b.CUSTOM_LINK){if(!a)return console.warn(`customItemType is required when itemType is CUSTOM_LINK for nav item: ${e.name}`),x.createElement(t,{navItem:e});let o=i[a];return o?x.createElement(o,{navItem:e}):(console.warn(`No link element found for customItemType: ${a} for nav item: ${e.name}`),x.createElement(t,{navItem:e}))}return x.createElement(t,{navItem:e})}var Z=e.i(1581755),ee=e.i(997053);let et=ee.css`
+  margin-left: var(--rosetta-size-spacing-two);
+`,ea=(0,ee.default)(z.SideNavigationV2)`
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 200px !important;
+  scrollbar-width: none;
+  /* 14px top (spacing-three + 2px to give the logo breathing room per
+     designer review), 8px sides, 12px bottom per FEP-4122 design refresh. */
+  padding: calc(var(--rosetta-size-spacing-three) + 2px)
+    var(--rosetta-size-spacing-two) var(--rosetta-size-spacing-three);
+  background-color: var(--rosetta-bg-surface);
+`,ei=ee.createGlobalStyle`
+  // viewing as
+  .viewing-as-header ~ div ${ea} {
+    top: 30px;
+    // adjust height to account for the viewing as header
+    height: calc(100% - 30px);
+  }
+
+  // incident banner
+  .incident-warning-banner-visible {
+    ${ea} {
+      top: 80px
+    }
+
+    // incident banner + viewing as
+    .viewing-as-header ~ div ${ea} {
+      top: 110px;
+    }
+  }
+`,eo=(0,ee.default)(z.Rosetta.Lock)`
+  ${et}
+`,en=(0,ee.default)(z.SideNavBodyV2)`
+  scrollbar-width: none;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+`,er=ee.default.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+  min-height: 0;
+`;function es({navItems:e,logo:t,extras:a,dataHook:i,semanticPrimaryNavList:o=!1,navigationAriaLabel:n,className:r,isResponsive:s=!0,impressionRef:l}){let c=Z.useScreenSize(),d=o?x.createElement(en,null,x.createElement(er,null,e)):x.createElement(en,null,e);return c.isLargerThan(Z.ScreenSizes.Small)||!s?x.createElement("div",{className:r,ref:l},x.createElement(ei,null),x.createElement(ea,{"data-hook":i,"aria-label":o&&n?n:void 0},t,d,a&&a)):null}ee.default.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  gap: ${e=>e.showGap?"var(--rosetta-size-spacing-two)":"0"};
+`;let el={[T.Number]:{[N.Positive]:z.NumberBadge,[N.Negative]:z.NumberBadge,[N.Warning]:z.NumberBadge,[N.Info]:z.NumberNeutralBadge},[T.Text]:{[N.Positive]:z.PositiveBadge,[N.Negative]:z.NegativeBadge,[N.Warning]:z.WarningBadge,[N.Info]:z.Badge},[T.Indicator]:{[N.Positive]:z.PositiveIndicator,[N.Negative]:z.NegativeIndicator,[N.Warning]:z.WarningIndicator,[N.Info]:z.InfoIndicator}},ec=e=>e.badgeType===T.Number?Number(e.value)>0:!!e.value,ed=e=>{let{badgeType:t,value:a,badgeStatus:i,dataHook:o=""}=e;if(!ec(e))return null;let n=null!=i?i:t===T.Number?N.Negative:N.Info,r=el[t][n];return x.createElement(r,o?{"data-hook":o}:{},a)},ep=ee.default.span`
+  ${et}
+`,em=e=>ec(e)?x.createElement(ep,null,x.createElement(ed,Object.assign({},e))):null,{LIST_DIVIDER:eu}=b,eE="var(--rosetta-fg-disabled)",eg=(0,ee.default)(z.SideNavDividerV2)`
+  /* SideNavDividerV2 provides the vertical and horizontal margins for the
+     FEP-4122 design refresh — no additional sizing override needed. */
+  width: auto !important;
+`,eh=ee.default.li`
+  display: block;
+  width: 100%;
+`,ef=ee.default.li`
+  display: block;
+  width: 100%;
+`,eb=(0,ee.default)(z.SideNavPrimaryItemV2)`
+  pointer-events: ${e=>e.disabled?"none":"all"};
+
+  ${z.SideNavTextV2} {
+    color: ${e=>e.disabled?eE:"unset"};
+  }
+`,ev=(0,ee.default)(eb)`
+  a {
+    &:focus-visible {
+      outline-offset: -2px;
+    }
+
+    ${e=>e.selected?ee.css`
+            border-radius: var(--rosetta-size-radius-two);
+            font-weight: var(--rosetta-type-body-medium-medium-weight);
+
+            &,
+            &:hover {
+              background-color: var(--rosetta-bg-selected);
+            }
+          `:ee.css`
+            &:hover {
+              background-color: var(--rosetta-interactive-hovered);
+            }
+          `}
+  }
+`,eS=ee.default.a`
+  display: flex;
+  border-radius: var(--rosetta-size-radius-two);
+  /* Opt out of the global default link underline (a11y). */
+  text-decoration: none;
+
+  &:focus {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: 1px;
+  }
+`,eA=({navItem:e})=>{let{icon:t,fillIcon:a,numberBadge:i,numberBadgeStatus:o,indicatorBadge:n,indicatorBadgeStatus:r,textBadge:s,textBadgeStatus:l,dataHook:c,isGated:d,isSelected:p,text:m}=e.options;return x.createElement(x.Fragment,null,t&&x.createElement(z.SideNavRosettaIconWrapperV2,{indicator:Number(i)>0},p&&a?a:t),x.createElement(z.SideNavTextV2,{"data-hook":c},m),!d&&Number(i)>0&&x.createElement(em,{value:i,badgeType:T.Number,badgeStatus:o,dataHook:"sidebar-badge"}),d&&x.createElement(eo,{fill:eE}),!!s&&x.createElement(em,{value:s,badgeType:T.Text,badgeStatus:l}),!!n&&x.createElement(em,{value:n,badgeType:T.Indicator,badgeStatus:r}))},eI=e=>{var{navItem:t}=e,a=(0,K.__rest)(e,["navItem"]);let{currentAppName:i,options:o}=t,{resolvedHref:n,target:r,disabled:s,ariaLabel:l,dataHook:c,isSelected:d}=o;return x.createElement("a",Object.assign({href:n,"data-hook":c||`${i||"rosetta"}-sidebar-nav-link`,tabIndex:s?-1:0,"aria-label":l},r?{target:r}:{},a,{"aria-current":d?"page":void 0}),x.createElement(eA,{navItem:t}))},eT=e=>{var{navItem:t,children:a}=e,i=(0,K.__rest)(e,["navItem","children"]);let{currentAppName:o,options:n}=t,{ariaLabel:r,icon:s,resolvedHref:l,dataHook:c}=n,d=c||`${o||"rosetta"}-sidebar-logo`;return x.createElement(eS,Object.assign({href:l,"data-hook":d,"aria-label":r},i),s,a)};function eN({navItem:e,navItemElement:t,semanticPrimaryNavList:a=!1}){let{itemRenderType:i,name:o,options:n}=e,{dataHook:r,disabled:s,isSelected:l}=n,c=q(e,(i===eu?null:x.createElement(ev,{key:o,selected:l,disabled:!!s},t))||x.createElement("span",null));return i===eu?a?x.createElement(ef,{"aria-hidden":"true"},x.createElement(eg,{"data-hook":r})):x.createElement(eg,{"data-hook":r}):a?x.createElement(eh,null,c):c}var eO=e.i(7379425);function e_(e){return e.replace(/[^a-zA-Z0-9-_]/g,"-").replace(/-+/g,"-")}function eR(e,t,{dedup:a=!1}={}){let i=null!=e?e:[],o=null!=t?t:[];if(0===i.length&&0===o.length)return;let n=[...i,...o];return a?Array.from(new Set(n)):n}let eL=z.IconSize.ExtraSmall,ex=ee.default.div`
+  width: 100%;
+  margin-top: var(--rosetta-size-spacing-three);
+`,eD=ee.default.div`
+  width: 100%;
+  margin-bottom: var(--rosetta-size-spacing-four);
+`,eC=ee.default.div`
+  display: flex;
+  align-items: center;
+  /* 4px top/bottom + 8px sides. The horizontal 8px matches
+     SideNavPrimaryItemV2's anchor padding so the expanded group heading text
+     shares the same x as the children's text. The 4px vertical padding gives
+     the group label some breathing room from the last child of the previous
+     group (FEP-4122 designer review). */
+  padding: var(--rosetta-size-spacing-one) var(--rosetta-size-spacing-two);
+  ${eO.body.small()}
+  color: var(--rosetta-fg-secondary);
+`,ey=(0,ee.default)(z.SideNavTextV2)`
+  flex: 1;
+  text-align: left;
+`,ew=ee.default.span`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: ${eL}px;
+  /* 1px of padding around the 16px chevron gives an 18px bounding box.
+     This lines the chevron up with the icons on primary rows and aligns
+     the group label's text x with the sub-item text x below. 8px
+     (spacing-two) margin-right separates the bounding box from the
+     group label per the FEP-4122 designer review. */
+  padding: 1px;
+  box-sizing: content-box;
+  transition: transform 150ms ease;
+  transform: ${e=>e.$collapsed?"rotate(-90deg)":"rotate(0deg)"};
+  color: var(--rosetta-fg-secondary);
+  margin-right: var(--rosetta-size-spacing-two);
+  flex-shrink: 0;
+`,ek=ee.default.button`
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: var(--rosetta-size-spacing-eight);
+  /* Matches SideNavPrimaryItemV2's anchor padding so the chevron column and
+     primary-row icon column start at the same x. */
+  padding: 0 var(--rosetta-size-spacing-two);
+  border: none;
+  background: none;
+  color: var(--rosetta-fg-primary);
+  cursor: pointer;
+  border-radius: var(--rosetta-size-radius-two);
+  ${eO.body.medium()}
+
+  &:hover {
+    background-color: var(--rosetta-interactive-hovered);
+  }
+
+  &:focus-visible {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: -2px;
+    border-radius: var(--rosetta-size-radius-two);
+  }
+`,eP=ee.default.div`
+  display: ${e=>e.$collapsed?"none":"block"};
+`,eM=ee.default.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  /* spacing-six (24px) + 3px puts the sub-item anchor's left edge at the
+     same x as the chevron column's outer right edge, so sub-item text starts
+     at the same x as the parent group label and primary-row labels. */
+  padding-left: calc(var(--rosetta-size-spacing-six) + 3px);
+
+  ${z.SideNavPrimaryItemV2} {
+    ${eO.body.medium()}
+  }
+`,eH=ee.default.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  /* No indent for expanded-group children — they live at the same x as root
+     items and their parent heading. (Collapsible groups indent their children
+     because the chevron column visually scopes them; expanded groups don't.) */
+  padding-left: 0;
+
+  ${z.SideNavPrimaryItemV2} {
+    ${eO.body.medium()}
+  }
+`,eU=e=>x.createElement(eI,{navItem:e});function eF({navItem:e,renderItemElement:t=eU}){var a;let{text:i,dataHook:o,groupStyle:n,initialCollapsed:r}=e.options,s=null!=(a=e.children)?a:[];if(0===s.length)return null;let l=s.map(e=>x.createElement(eN,{key:e.name,navItem:e,navItemElement:t(e)}));return n===v.COLLAPSIBLE?x.createElement(eB,{label:i,dataHook:o,initialCollapsed:r},l):x.createElement(eD,{"data-hook":o},x.createElement(eC,null,x.createElement(ey,null,i)),x.createElement(eH,null,l))}function eB({label:e,dataHook:t,initialCollapsed:a=!1,children:i}){let[o,n]=x.useState(a),r=`nav-group-children-${e_(t||e)}`;return x.createElement(ex,{"data-hook":t},x.createElement(ek,{type:"button","aria-expanded":!o,"aria-controls":r,"aria-label":e,onClick:()=>n(e=>!e)},x.createElement(ew,{$collapsed:o,"aria-hidden":"true"},x.createElement(z.Rosetta.ChevronDown,{width:z.IconSize.ExtraSmall,height:z.IconSize.ExtraSmall})),x.createElement(ey,null,e)),x.createElement(eP,{$collapsed:o,id:r,role:"group"},x.createElement(eM,null,i)))}let ej=ee.default.div`
+  margin-left: 4px;
+
+  /* Style the inner anchor (the actual clickable element) so that both the
+     icon and the tier display name sit side-by-side inside one tappable
+     target — see the cloneElement call below. */
+  a {
+    display: flex;
+    align-items: center;
+    gap: var(--rosetta-size-spacing-two);
+    border-radius: var(--rosetta-size-radius-two);
+    /* Suppress the default anchor underline on the wordmark text now that
+       the display name lives inside the link. */
+    text-decoration: none;
+    color: var(--rosetta-fg-primary);
+  }
+
+  svg {
+    /* Shadow uses the Rosetta fg-border color (#1F202C) at 12% so it tones
+       with the rest of the chrome instead of pure black. */
+    filter: drop-shadow(0 1px 2px rgba(31, 32, 44, 0.12));
+
+    rect:first-of-type {
+      stroke: var(--rosetta-fg-border);
+      stroke-width: 0.5;
+      vector-effect: non-scaling-stroke;
+    }
+  }
+`,eV=ee.default.span`
+  color: var(--rosetta-fg-primary);
+  ${eO.body.large({semibold:!0})}
+`,eK=(0,ee.default)(z.SideNavLogoWrapperV2)`
+  /* Space between the logo and the first nav row. 14px (spacing-four - 2px)
+     compensates for the extra 2px we added to SideNavBlock's padding-top —
+     keeping the root items at their original y while the logo gets a bit
+     more breathing room from the top of the sidenav (FEP-4122 designer
+     review). */
+  margin-bottom: calc(var(--rosetta-size-spacing-four) - 2px);
+`,ez=({navItem:e,navItemElement:t,displayName:a})=>{let i=null==e?void 0:e.name,o=a?x.cloneElement(t,{},x.createElement(eV,{key:"display-name"},a)):t,n=q(e,x.createElement(eK,{key:i},x.createElement(ej,null,o)));return e?n:null},e$=["/stu/career_fairs","/stu/users/[user.id]/calendar","/stu/interview_schedules"],eG=["/stu/applications","/stu/saved_jobs","/stu/jobs","/job-search","/jobs-home","/jobs/","/apps"],eY=["/stu/saved_jobs","/stu/jobs","/job-search","/jobs-home","/jobs/"],eW=["/stu/schools","/stu/appointments","/stu/experiences","/stu/first_destination_responses","/stu/surveys","/stu/journeys"],eJ=["/employer-search","/e/"],eX={[S.BASIC]:{ariaLabelKey:"homepageBasic",displayNameKey:"tierBasic"},[S.PRO]:{ariaLabelKey:"homepagePro",displayNameKey:"tierPro"},[S.PLUS]:{ariaLabelKey:"homepagePlus",displayNameKey:"tierPlus"},[S.ENTERPRISE]:{ariaLabelKey:"homepageEnterprise",displayNameKey:"tierEnterprise"}},{HOME:eq,FEED:eQ,YOUR_PROFILE:eZ,INBOX:e0,DIVIDER:e1,OPEN_EMPLOYER:e2,OPEN_EDU:e4,JOBS:e9,EVENTS:e8,PEOPLE:e5,EMPLOYERS:e6,LEVEL_UP:e3,CAREER_CENTER:e7,Q_AND_A:te,STUDENTS:tt,LIVE_RENT_FREE:ta,LIVE_RENT_FREE_DIVIDER:ti,LOGO:to,HAI_DIVIDER:tn,HAI_FELLOW:tr,LEARN:ts,HAI_ADMIN_FAKE_EXPLORE:tl,HAI_ADMIN_FAKE_FEED:tc,HAI_ADMIN_FAKE_INBOX:td,HAI_ADMIN_FAKE_DIVIDER:tp,HAI_ADMIN_FAKE_JOBS:tm,HAI_ADMIN_FAKE_EVENTS:tu,HAI_ADMIN_FAKE_PEOPLE:tE,HAI_ADMIN_FAKE_EMPLOYERS:tg,HAI_ADMIN_FAKE_CAREER_CENTER:th,MY_PROFILE:tf,BRAND:tb,EMP_DIVIDER:tv,GROUP_TALENT:tS,TALENT_SEGMENTS:tA,TALENT_CAMPAIGNS:tI,TALENT_ANALYTICS:tT,GROUP_POSTINGS:tN,POSTINGS_JOBS:tO,GROUP_RELATIONS:t_,RELATIONS_TALENT:tR,RELATIONS_SCHOOLS:tL,RELATIONS_CONTACTS:tx,GROUP_MEET:tD,MEET_EVENTS:tC,MEET_MEETINGS:ty,MEET_INTERVIEWS:tw,MEET_FAIRS:tk,POSTS:tP,INSTITUTION:tM,GROUP_STUDENTS:tH,STUDENTS_MANAGE:tU,STUDENTS_EXPERIENCES:tF,STUDENTS_APPLICATIONS:tB,STUDENTS_FIRST_DESTINATION:tj,STUDENTS_REVIEWS:tV,GROUP_COMMUNICATE:tK,COMMUNICATE_EMAILS:tz,COMMUNICATE_RESOURCES:t$,COMMUNICATE_COLLECTIONS:tG,GROUP_SCHEDULE:tY,SCHEDULE_EVENTS:tW,SCHEDULE_FAIRS:tJ,SCHEDULE_APPOINTMENTS:tX,GROUP_JOBS:tq,JOBS_POSTINGS:tQ,JOBS_INTERVIEWS:tZ,GROUP_RELATIONSHIPS:t0,RELATIONSHIPS_EMPLOYERS:t1,RELATIONSHIPS_CONTACTS:t2,RELATIONSHIPS_ALUMNI:t4,GROUP_DATA:t9,DATA_ANALYTICS:t8,DATA_SURVEYS:t5,DATA_INVOICES:t6}=O,{SIDEBAR:t3}=A,t7=(e,t)=>{let a=x.useMemo(()=>V(t),[t]),{user:i,currentApp:o,appInfoMap:n,trackingConfig:r,showFeed:s,showYourProfile:l,showCareerCenter:c,showLiveRentFree:d,isEnabledJobsHome:p,isEnabledUnaffiliatedPeopleSearch:m,isEnabledHAIExperiment:u,isLearnAvailable:E,isEnabledExplore:A,isEnabledAltJobsDisplay:T,swapExploreAndJobs:_}=e,{id:R,impersonatingUserType:L,institutionId:D,institutionName:k,marketplace:P,userType:M,isAffiliatedStudent:H,isConfirmedStudent:U,unreadMessagesCount:F,applicationsUpdatedCount:j,institutionLogoUrl:K,hasVisitedHaiHub:$,haiProfileId:G,productTier:W}=i,X=o.name,q=M===f.Students,Q=M===f.CareerServices,Z=M===f.Employers,ee=o.appType===h.HAI&&M===f.Admins,et=x.useMemo(()=>X===g.EDU?w:X===g.EMP?y:q&&_&&A?C.map(e=>e===O.HOME?O.JOBS:e===O.JOBS?O.HOME:e):C,[X,q,A,_]);return x.useMemo(()=>{let e,t=e$.map(e=>e.replace("[user.id]",null!=R?R:"")),i=J({navItems:g.EDU===X?{[eq]:{show:!0,href:"/",itemHomeApp:g.EDU,text:a("home"),ariaLabel:a("home"),icon:"Home",fillIcon:"HomeFill",dataHook:"edu-sidebar-nav-link"},[tP]:{show:!0,href:"/posts",itemHomeApp:g.EDU,text:a("posts"),ariaLabel:a("posts"),icon:"Feed",fillIcon:"FeedFill",dataHook:"edu-sidebar-nav-link"},[tf]:{show:!0,href:"/profile",itemHomeApp:g.EDU,text:a("eduProfile"),ariaLabel:a("eduProfile"),icon:"UserSingle",fillIcon:"UserSingleFill",dataHook:"edu-sidebar-nav-link"},[tM]:{show:!0,href:"/school",itemHomeApp:g.EDU,text:k||a("school"),ariaLabel:k||a("school"),icon:"School",fillIcon:"SchoolFill",dataHook:"edu-sidebar-nav-link"},[tH]:{show:!0,itemHomeApp:g.EDU,text:a("students"),ariaLabel:a("students"),itemRenderType:b.GROUP_LABEL,groupStyle:v.COLLAPSIBLE},[tU]:{show:!0,href:"/manage-students",itemHomeApp:g.EDU,text:a("manageStudents"),ariaLabel:a("manageStudents"),group:tH,dataHook:"edu-sidebar-nav-link"},[tF]:{show:!0,href:"/experiences",itemHomeApp:g.EDU,text:a("experiences"),ariaLabel:a("experiences"),group:tH,dataHook:"edu-sidebar-nav-link"},[tB]:{show:!0,href:"/applications",itemHomeApp:g.EDU,text:a("applications"),ariaLabel:a("applications"),group:tH,dataHook:"edu-sidebar-nav-link"},[tj]:{show:!0,href:"/first-destinations",itemHomeApp:g.EDU,text:a("firstDestination"),ariaLabel:a("firstDestination"),group:tH,dataHook:"edu-sidebar-nav-link"},[tV]:{show:!0,href:"/reviews",itemHomeApp:g.EDU,text:a("reviews"),ariaLabel:a("reviews"),group:tH,dataHook:"edu-sidebar-nav-link"},[tK]:{show:!0,itemHomeApp:g.EDU,text:a("groupCommunicate"),ariaLabel:a("groupCommunicate"),itemRenderType:b.GROUP_LABEL,groupStyle:v.COLLAPSIBLE},[tz]:{show:!0,href:"/communicate/emails",itemHomeApp:g.EDU,text:a("communicateEmails"),ariaLabel:a("communicateEmails"),group:tK,dataHook:"edu-sidebar-nav-link"},[t$]:{show:!0,href:"/communicate/resources",itemHomeApp:g.EDU,text:a("communicateResources"),ariaLabel:a("communicateResources"),group:tK,dataHook:"edu-sidebar-nav-link"},[tG]:{show:!0,href:"/communicate/collections",itemHomeApp:g.EDU,text:a("communicateCollections"),ariaLabel:a("communicateCollections"),group:tK,dataHook:"edu-sidebar-nav-link"},[tY]:{show:!0,itemHomeApp:g.EDU,itemRenderType:b.GROUP_LABEL,text:a("groupSchedule"),ariaLabel:a("groupSchedule"),groupStyle:v.COLLAPSIBLE},[tW]:{show:!0,href:"/schedule/events",itemHomeApp:g.EDU,text:a("scheduleEvents"),ariaLabel:a("scheduleEvents"),group:tY,dataHook:"edu-sidebar-nav-link"},[tJ]:{show:!0,href:"/schedule/fairs",itemHomeApp:g.EDU,text:a("scheduleFairs"),ariaLabel:a("scheduleFairs"),group:tY,dataHook:"edu-sidebar-nav-link"},[tX]:{show:!0,href:"/schedule/appointments",itemHomeApp:g.EDU,text:a("scheduleAppointments"),ariaLabel:a("scheduleAppointments"),group:tY,dataHook:"edu-sidebar-nav-link"},[tq]:{show:!0,itemHomeApp:g.EDU,text:a("groupJobs"),ariaLabel:a("groupJobs"),itemRenderType:b.GROUP_LABEL,groupStyle:v.COLLAPSIBLE},[tQ]:{show:!0,href:"/jobs",itemHomeApp:g.EDU,text:a("jobsPostings"),ariaLabel:a("jobsPostings"),group:tq,dataHook:"edu-sidebar-nav-link"},[tZ]:{show:!0,href:"/interviews",itemHomeApp:g.EDU,text:a("jobsInterviews"),ariaLabel:a("jobsInterviews"),group:tq,dataHook:"edu-sidebar-nav-link"},[t0]:{show:!0,itemHomeApp:g.EDU,text:a("groupRelationships"),ariaLabel:a("groupRelationships"),itemRenderType:b.GROUP_LABEL,groupStyle:v.COLLAPSIBLE},[t1]:{show:!0,href:"/employers",itemHomeApp:g.EDU,text:a("relationshipsEmployers"),ariaLabel:a("relationshipsEmployers"),group:t0},[t2]:{show:!0,href:"/contacts",itemHomeApp:g.EDU,text:a("relationshipsContacts"),ariaLabel:a("relationshipsContacts"),group:t0},[t4]:{show:!0,href:"/alumni",itemHomeApp:g.EDU,text:a("relationshipsAlumni"),ariaLabel:a("relationshipsAlumni"),group:t0},[t9]:{show:!0,itemHomeApp:g.EDU,text:a("groupData"),ariaLabel:a("groupData"),itemRenderType:b.GROUP_LABEL,groupStyle:v.COLLAPSIBLE},[t8]:{show:!0,href:"/analytics",itemHomeApp:g.EDU,text:a("dataAnalytics"),ariaLabel:a("dataAnalytics"),group:t9},[t5]:{show:!0,href:"/surveys",itemHomeApp:g.EDU,text:a("dataSurveys"),ariaLabel:a("dataSurveys"),group:t9},[t6]:{show:!0,href:"/invoices",itemHomeApp:g.EDU,text:a("dataInvoices"),ariaLabel:a("dataInvoices"),group:t9}}:g.EMP===X?(e=W===S.ENTERPRISE,{[eq]:{show:!0,href:"/",itemHomeApp:g.EMP,text:a("home"),ariaLabel:a("home"),icon:"Home",fillIcon:"HomeFill",dataHook:"emp-sidebar-nav-link"},[tf]:{show:!0,href:"/profile",itemHomeApp:g.EMP,text:a("empProfile"),ariaLabel:a("empProfile"),icon:"UserSingle",fillIcon:"UserSingleFill",dataHook:"emp-sidebar-nav-link"},[tb]:{show:!0,href:"/brand",itemHomeApp:g.EMP,text:a("brand"),ariaLabel:a("brand"),icon:"Inbox",fillIcon:"InboxFill",dataHook:"emp-sidebar-nav-link"},[tv]:{show:!0,itemHomeApp:g.EMP,text:"divider",ariaLabel:"divider",dataHook:"emp-sidebar-divider"},[tS]:{show:e,itemHomeApp:g.EMP,text:a("talentEngagement"),ariaLabel:a("talentEngagement"),itemRenderType:b.GROUP_LABEL},[tA]:{show:e,href:"/talent-segments",itemHomeApp:g.EMP,text:a("talentSegments"),ariaLabel:a("talentSegments"),group:tS,dataHook:"emp-sidebar-nav-link"},[tI]:{show:e,href:"/talent-campaigns",itemHomeApp:g.EMP,text:a("talentCampaigns"),ariaLabel:a("talentCampaigns"),group:tS,dataHook:"emp-sidebar-nav-link"},[tT]:{show:e,href:"/talent-analytics",itemHomeApp:g.EMP,text:a("talentAnalytics"),ariaLabel:a("talentAnalytics"),group:tS,dataHook:"emp-sidebar-nav-link"},[tN]:{show:!0,itemHomeApp:g.EMP,text:a("postings"),ariaLabel:a("postings"),itemRenderType:b.GROUP_LABEL},[tO]:{show:!0,href:"/jobs",itemHomeApp:g.EMP,text:a("jobs"),ariaLabel:a("jobs"),group:tN,dataHook:"emp-sidebar-nav-link"},[t_]:{show:!0,itemHomeApp:g.EMP,text:a("relations"),ariaLabel:a("relations"),itemRenderType:b.GROUP_LABEL},[tR]:{show:!0,href:"/talent",itemHomeApp:g.EMP,text:a("talent"),ariaLabel:a("talent"),group:t_,dataHook:"emp-sidebar-nav-link"},[tL]:{show:!0,href:"/schools",itemHomeApp:g.EMP,text:a("schools"),ariaLabel:a("schools"),group:t_,dataHook:"emp-sidebar-nav-link"},[tx]:{show:!0,href:"/contacts",itemHomeApp:g.EMP,text:a("contacts"),ariaLabel:a("contacts"),group:t_,dataHook:"emp-sidebar-nav-link"},[tD]:{show:!0,itemHomeApp:g.EMP,text:a("meet"),ariaLabel:a("meet"),itemRenderType:b.GROUP_LABEL},[tC]:{show:!0,href:"/events",itemHomeApp:g.EMP,text:a("events"),ariaLabel:a("events"),group:tD,dataHook:"emp-sidebar-nav-link"},[ty]:{show:!0,href:"/meetings",itemHomeApp:g.EMP,text:a("meetings"),ariaLabel:a("meetings"),group:tD,dataHook:"emp-sidebar-nav-link"},[tw]:{show:!0,href:"/interviews",itemHomeApp:g.EMP,text:a("interviews"),ariaLabel:a("interviews"),group:tD,dataHook:"emp-sidebar-nav-link"},[tk]:{show:!0,href:"/fairs",itemHomeApp:g.EMP,text:a("fairs"),ariaLabel:a("fairs"),group:tD,dataHook:"emp-sidebar-nav-link"}}):{[eq]:Object.assign({show:q&&(H||A),href:"/stu",itemHomeApp:g.STUDENT,text:a("home"),ariaLabel:a("home"),icon:"Home",fillIcon:"HomeFill",dataHook:"student-sidebar-nav-link"},A?{href:"/explore",itemHomeApp:g.CONSUMER,text:a("explore"),ariaLabel:a("explore"),icon:"Compass",fillIcon:"CompassFill",itemRenderType:o.name===g.CONSUMER?b.CUSTOM_LINK:b.STANDARD_LINK}:{}),[eQ]:Object.assign(Object.assign({show:s&&!ee,itemHomeApp:g.CONSUMER,href:"/feed",text:a("feed"),ariaLabel:a("feed"),icon:"Feed",fillIcon:"FeedFill",dataHook:"student-sidebar-nav-link"},Y("textBadge",a("new"),"EU"===P)),Y("textBadgeStatus",N.Positive,"EU"===P)),[eZ]:{show:l&&void 0!==R&&!ee,itemHomeApp:g.CONSUMER,text:a("yourProfile"),ariaLabel:a("yourProfile"),href:`/profiles/${R}`,icon:"UserSingle",fillIcon:"UserSingleFill",dataHook:"student-sidebar-nav-link",siblingPaths:["/profiles"],tracking:r[eZ]||{}},[e0]:{show:q,itemHomeApp:g.CONSUMER,text:a("inbox"),ariaLabel:B("inboxAriaLabel",F,a),href:"/inbox?ref=sidebar",icon:"Inbox",fillIcon:"InboxFill",disabled:L===f.CareerServices,numberBadge:F,numberBadgeStatus:N.Negative,dataHook:"student-sidebar-messages-link",isGated:L===f.CareerServices},[e1]:{show:q||Z||Q,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider",dataHook:"student-sidebar-divider"},[e2]:{show:Z,href:"/emp",icon:"ShareExternal",fillIcon:"ShareExternalFill",itemHomeApp:g.EMP,text:a("openEmployer"),ariaLabel:a("openEmployer"),target:I.BLANK,dataHook:"student-sidebar-nav-link"},[e4]:{show:Q,href:"/edu",icon:"ShareExternal",fillIcon:"ShareExternalFill",itemHomeApp:g.EDU,text:a("openEdu"),ariaLabel:a("openEdu"),target:I.BLANK,dataHook:"student-sidebar-nav-link"},[e9]:Object.assign(Object.assign({show:!ee,href:p?"/jobs-home":"/job-search",icon:"Jobs",fillIcon:"JobsFill",disabled:!1,itemHomeApp:g.CONSUMER,text:a("jobs"),ariaLabel:a("jobs")},Y("numberBadge",j,!T)),{siblingPaths:[...T?eY:eG,"/saved-jobs"],dataHook:"student-sidebar-jobs-link",tracking:r[e9]||{}}),[e8]:{show:q,href:"/stu/events",icon:"Calendar",fillIcon:"CalendarFill",itemHomeApp:g.STUDENT,text:a("events"),ariaLabel:a("events"),siblingPaths:t,dataHook:"student-sidebar-events-link"},[e5]:{show:q&&(H||m),href:"/people",icon:"UserMultiple",fillIcon:"UserMultipleFill",itemHomeApp:g.CONSUMER,text:a("people"),ariaLabel:a("people"),tracking:r[e5]||{},dataHook:"student-sidebar-nav-link"},[e6]:{show:q||Z||Q,href:"/employer-search",icon:"Badge",fillIcon:"BadgeFill",itemHomeApp:g.CONSUMER,text:a("employers"),ariaLabel:a("employers"),dataHook:"student-sidebar-employers-link",siblingPaths:eJ},[e3]:Object.assign(Object.assign({show:q||Z,href:"/ai-showcase",icon:"Rocket",fillIcon:"RocketFill",itemHomeApp:g.CONSUMER,text:a("aiShowcase"),ariaLabel:a("aiShowcase"),dataHook:"student-sidebar-level-up-link",siblingPaths:["/gemini"],tracking:r[e3]||{}},Y("indicatorBadge",!0,h.CORE===o.appType)),Y("indicatorBadgeStatus",N.Info,h.CORE===o.appType)),[e7]:{show:c&&q,href:`/stu/schools/${D}`,itemHomeApp:g.STUDENT,text:a("careerCenter"),ariaLabel:a("careerCenter"),siblingPaths:eW,dataHook:"student-sidebar-career-center-link",icon:"GradCap",fillIcon:"GradCapFill",tracking:r[e7]||{}},[te]:{show:!1,href:"/stu/community_questions?ref=navbar",itemHomeApp:g.STUDENT,text:a("qAndA"),ariaLabel:a("qAndA"),disabled:!H,dataHook:"student-sidebar-nav-link"},[tt]:{show:!1,href:"/stu/students",itemHomeApp:g.STUDENT,text:a("students"),ariaLabel:a("students"),disabled:!H,dataHook:"student-sidebar-nav-link"},[ti]:{show:d&&q,itemHomeApp:g.STUDENT,text:"divider",ariaLabel:"divider",dataHook:"student-sidebar-divider"},[ta]:{show:d&&q,href:"/stu/live-rent-free",itemHomeApp:g.STUDENT,text:a("giveaway"),ariaLabel:a("giveaway"),icon:"FavoriteAward",fillIcon:"FavoriteAwardFill",textBadge:a("new"),textBadgeStatus:N.Positive,dataHook:"student-sidebar-nav-link"},[tn]:{show:(o.name===g.HAI||q&&(u||$||!!G))&&L!==f.CareerServices,itemHomeApp:g.HAI,text:"divider",ariaLabel:"divider",dataHook:"student-sidebar-hai-divider"},[tr]:Object.assign(Object.assign(Object.assign({show:(o.name===g.HAI||q&&(u||$||!!G))&&L!==f.CareerServices,itemHomeApp:g.HAI,text:a("aiWork"),ariaLabel:a("aiWork"),href:"/fellow-home",icon:"AIWork",fillIcon:"AIWorkFill",dataHook:"student-sidebar-ai-jobs-link"},Y("indicatorBadge",!0,h.CORE===o.appType&&!$)),Y("indicatorBadgeStatus",N.Info,h.CORE===o.appType&&!$)),{siblingPaths:["/fellow","/fellow-home","/fellow/dashboard","/fellow/welcome","/fellow/projects","/fellow/project","/fellow/payments","/fellow/payments-setup","/fellow/referrals","/fellow/forms","/fellow/interview-completed","/fellow/move-application","/fellow/onboarding-webinar-scheduling","/fellow/thank-you","/customers","/fellows-bpo","/deactivated"],tracking:r[tr]||{}}),[ts]:{show:(o.name===g.LEARN||q&&E)&&L!==f.CareerServices,itemHomeApp:g.LEARN,text:a("learn"),ariaLabel:a("learn"),href:"/",icon:"Book",fillIcon:"Book",dataHook:"student-sidebar-learn-link",tracking:r[ts]||{}},[tl]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("explore"),ariaLabel:a("explore"),icon:"Compass",fillIcon:"CompassFill",dataHook:"student-sidebar-nav-link",disabled:!0},[tc]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("feed"),ariaLabel:a("feed"),icon:"Feed",fillIcon:"FeedFill",dataHook:"student-sidebar-nav-link",disabled:!0},[td]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("inbox"),ariaLabel:a("inbox"),icon:"Inbox",fillIcon:"InboxFill",dataHook:"student-sidebar-nav-link",disabled:!0},[tp]:{show:ee,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider",dataHook:"student-sidebar-divider"},[tm]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("jobs"),ariaLabel:a("jobs"),icon:"Jobs",fillIcon:"JobsFill",dataHook:"student-sidebar-nav-link",disabled:!0},[tu]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("events"),ariaLabel:a("events"),icon:"Calendar",fillIcon:"CalendarFill",dataHook:"student-sidebar-nav-link",disabled:!0},[tE]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("people"),ariaLabel:a("people"),icon:"UserMultiple",fillIcon:"UserMultipleFill",dataHook:"student-sidebar-nav-link",disabled:!0},[tg]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("employers"),ariaLabel:a("employers"),icon:"Badge",fillIcon:"BadgeFill",dataHook:"student-sidebar-nav-link",disabled:!0},[th]:{show:ee,itemHomeApp:g.CONSUMER,href:"/",text:a("careerCenter"),ariaLabel:a("careerCenter"),icon:"GradCap",fillIcon:"GradCapFill",dataHook:"student-sidebar-nav-link",disabled:!0}},location:t3,currentAppInfo:o,appInfoMap:n,itemsOrder:et}),O=W&&eX[W]?eX[W]:void 0,C=x.createElement(z.AppIcon,{height:"28px",width:"28px"}),y=O?a(O.ariaLabelKey):a("homepage"),w=O?a(O.displayNameKey):void 0,M=J({navItems:{[to]:{show:!0,ariaLabel:y,href:o.name===g.CONSUMER&&A?_?"/job-search":"/explore":o.name===g.CONSUMER&&q&&H?"/stu":o.rootPath,itemHomeApp:o.name,itemRenderType:o.name===g.CONSUMER&&A?b.CUSTOM_LINK:b.STANDARD_LINK,icon:C,dataHook:"student-sidebar-logo-link",tracking:r[to]||{}}},location:t3,currentAppInfo:o,appInfoMap:n,itemsOrder:et})[0];return{sidebarNavItems:i,logoNavItem:M,logoDisplayName:w}},[o,n,r,s,l,c,d,p,m,u,E,A,T,et,q,Q,Z,_,ee,H,U,F,j,L,D,k,P,R,K,$,G,W,t,a])};var ae=e.i(6871410),at=e.i(5601680),aa=e.i(8876943),ai=e.i(7539215),ao=e.i(6635078),an=e.i(5290735),ar=e.i(3027659);(E=L||(L={}))[E.UNSPECIFIED=0]="UNSPECIFIED",E[E.PARTIAL=1]="PARTIAL",E[E.FULL=2]="FULL";class as extends at.MessageType{constructor(){super("tracking_universal.profiles_identity.v1.UserProfileView",[{no:1,name:"user_id_viewed",kind:"scalar",localName:"user_id_viewed",T:9},{no:2,name:"user_type_viewed",kind:"message",localName:"user_type_viewed",T:()=>ar.UserType},{no:3,name:"user_type_viewer",kind:"message",localName:"user_type_viewer",T:()=>ar.UserType},{no:4,name:"source",kind:"scalar",T:9},{no:5,name:"url",kind:"scalar",T:9},{no:6,name:"view_type",kind:"enum",localName:"view_type",T:()=>["tracking_universal.profiles_identity.v1.UserProfileView.ViewType",L,"VIEW_TYPE_"]},{no:7,name:"profile_page_type",kind:"scalar",localName:"profile_page_type",T:9},{no:8,name:"product_context",kind:"message",localName:"product_context",T:()=>an.ProductContext},{no:9,name:"referrer",kind:"scalar",T:9},{no:10,name:"urn",kind:"scalar",T:9},{no:11,name:"feed_view_urn",kind:"scalar",localName:"feed_view_urn",T:9},{no:12,name:"referrer_context",kind:"message",localName:"referrer_context",T:()=>ao.ReferrerContext},{no:2046,name:"partition_timestamp",kind:"message",localName:"partition_timestamp",T:()=>ai.Timestamp},{no:2047,name:"header",kind:"message",T:()=>aa.Header}],{"gen_bq_schema.bigquery_opts":{tableName:"user_profile_view"}})}}let al=new as;var ac=at,ad=e.i(2873053);class ap extends ac.MessageType{constructor(){super("tracking_universal.profiles_identity.v1.PeopleSearchView",[{no:1,name:"user_type_viewer",kind:"message",localName:"user_type_viewer",T:()=>ar.UserType},{no:2,name:"product_context",kind:"message",localName:"product_context",T:()=>an.ProductContext},{no:3,name:"referrer_context",kind:"message",localName:"referrer_context",T:()=>ao.ReferrerContext},{no:4,name:"event_type",kind:"enum",localName:"event_type",T:()=>["tracking_base.common.v1.EventType",ad.EventType,"EVENT_TYPE_"]},{no:2046,name:"partition_timestamp",kind:"message",localName:"partition_timestamp",T:()=>ai.Timestamp},{no:2047,name:"header",kind:"message",T:()=>aa.Header}],{"gen_bq_schema.bigquery_opts":{tableName:"people_search_view"},"tracking_base.wrapper.v1.event_name":["people_search_view"]})}}let am=new ap,{LOGO:au,YOUR_PROFILE:aE,JOBS:ag,PEOPLE:ah,HAI_FELLOW:af,LEARN:ab}=O,av="sidenavImpression",aS=({user:e,appName:t,jobsHomeToggleVariation:a,sidenavImpressionTracking:i})=>{let o=(null==e?void 0:e.userType)||f.Students,n=t===g.CONSUMER;return Object.assign(Object.assign({},i?{[av]:{name:i.name,trackingData:i.trackingData,isExcluded:i.isExcluded}}:{}),{[au]:{name:"sidenav-logo-click",trackingData:{product_channel:n?"consumer":"student"},isExcluded:!n},[aE]:{name:"user_profile_view",schemaflowFactory:al,trackingData:{user_id_viewed:String(null==e?void 0:e.id),user_type_viewed:o,user_type_viewer:o,source:"SideNav",url:"u">typeof window?window.location.pathname:"",view_type:"Full",profile_page_type:"CXP"},isExcluded:!n},[af]:{name:"hai_open",preserveEventName:!0,trackingData:{experiment:"experiment-hai-hub-link-in-nav",product_channel:"hai",placement_location:"left_nav"},isExcluded:!n},[ab]:{name:"learn_open",preserveEventName:!0,trackingData:{product_channel:"learn",placement_location:"left_nav"},isExcluded:!n},[ag]:{name:"$experiment-impression",trackingData:{experiment:"experiment-job-collections-landing",variation:a},isExcluded:!n},[ah]:{name:"people_search_view",schemaflowFactory:am,trackingData:{user_type_viewer:"Students",product_context:{product_channel:"consumer",placement_location:"sidebar"}},isExcluded:!n}})};e.s(["SideNav",0,({appName:e,currentPath:t,coreAppBaseUrl:a,haiAppBaseUrl:i,learnAppBaseUrl:o,sideNavExtras:n=null,navItemElement:r,logoNavItemElement:s,translator:l,className:c,isResponsive:d=!0,showFeed:p,showYourProfile:m,showCareerCenter:u,showLiveRentFree:E,isEnabledJobsHome:g,isEnabledExplore:h,isEnabledHAIExperiment:f,isLearnAvailable:v=!1,isEnabledUnaffiliatedPeopleSearch:S,isEnabledAltJobsDisplay:A,jobsHomeToggleVariation:I,sidenavImpressionTracking:T,swapExploreAndJobs:N=!1,user:O})=>{let _=F({coreAppBaseUrl:a,haiAppBaseUrl:i,learnAppBaseUrl:o}),R=_[e],{trackingConfig:L,impressionRef:D}=function({user:e,appName:t,jobsHomeToggleVariation:a,sidenavImpressionTracking:i}){let o=x.useMemo(()=>aS({user:e,appName:t,jobsHomeToggleVariation:a,sidenavImpressionTracking:i}),[e,t,a,i]),n=o[av],r=x.useMemo(()=>n?JSON.stringify({name:n.name,trackingData:n.trackingData,isExcluded:n.isExcluded}):null,[n]),{ref:s}=(0,ae.useImpressionTracking)({eventName:(null==n?void 0:n.name)||"",trackingData:null==n?void 0:n.trackingData},[r,null==e?void 0:e.id]);return{trackingConfig:o,impressionRef:(null==n?void 0:n.name)&&!(null==n?void 0:n.isExcluded)?s:void 0}}({user:O,appName:e,jobsHomeToggleVariation:I,sidenavImpressionTracking:T}),C=x.useMemo(()=>({showFeed:p,showYourProfile:m,showCareerCenter:u,showLiveRentFree:E,isEnabledJobsHome:g,isEnabledExplore:h,isEnabledHAIExperiment:f,isLearnAvailable:v,isEnabledUnaffiliatedPeopleSearch:S,isEnabledAltJobsDisplay:A,sidenavImpressionTracking:T,swapExploreAndJobs:N,user:O,currentApp:Object.assign(Object.assign({},R),{currentPath:t,name:e}),appInfoMap:_,trackingConfig:L}),[p,m,u,E,g,h,f,v,S,A,T,N,O,R,_,e,t,L]),{sidebarNavItems:y,logoNavItem:w,logoDisplayName:k}=t7(C,l),P=!x.useMemo(()=>y.some(e=>e.itemRenderType===b.GROUP_LABEL),[y]),M=x.useMemo(()=>V(l)("primaryNavigation",{}),[l]),H=x.useMemo(()=>({isMobile:!1}),[]),U=x.useCallback(e=>r?x.createElement(r,{navItem:e,configData:C,renderContext:H}):x.createElement(eI,{navItem:e}),[r,C,H]),B=y.map(e=>e.itemRenderType===b.GROUP_LABEL?x.createElement(eF,{key:e.name,navItem:e,renderItemElement:U}):x.createElement(eN,{key:e.name,navItem:e,navItemElement:U(e),semanticPrimaryNavList:P})),j=s?x.createElement(s,{navItem:w,configData:C,renderContext:H}):r?x.createElement(r,{navItem:w,configData:C,renderContext:H}):x.createElement(eT,{navItem:w}),K=x.createElement(ez,{navItem:w,displayName:k,navItemElement:j});return x.createElement(es,{className:c,navItems:B,logo:K,extras:n,dataHook:`${e}-sidebar`,semanticPrimaryNavList:P,navigationAriaLabel:M,isResponsive:d,impressionRef:D})}],4380490);let aA=`calc(
+  var(--rosetta-size-spacing-one) + var(--rosetta-size-spacing-two) + 24px
+)`,aI=ee.default.li`
+  margin: 0;
+
+  /* Enforce mobile nav styling on all link-like descendants */
+  a,
+  button,
+  [role="menuitem"] {
+    display: flex;
+    align-items: center;
+    gap: var(--rosetta-size-spacing-two);
+    text-decoration: none;
+    color: var(--rosetta-fg-primary);
+    ${eO.body.large({semibold:!0})}
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    padding: var(--rosetta-size-spacing-three) var(--rosetta-size-spacing-two)
+      var(--rosetta-size-spacing-three) ${aA};
+    width: 100%;
+    cursor: pointer;
+    border-radius: var(--rosetta-size-radius-two);
+    transition: background 200ms ease-in-out;
+
+    &:hover {
+      background: var(--rosetta-interactive-hovered);
+    }
+
+    &:active {
+      background: var(--rosetta-bg-selected);
+    }
+
+    &:focus-visible {
+      outline: 0;
+      box-shadow: inset 0px 0px 0px 2px var(--rosetta-fg-status-info);
+    }
+  }
+`,aT=ee.default.a`
+  /* Visual styles are enforced by StyledMobileNavListItem parent */
+`,aN=({navItem:e})=>{let{text:t,numberBadge:a,numberBadgeStatus:i,textBadge:o,textBadgeStatus:n,indicatorBadge:r,indicatorBadgeStatus:s,isGated:l}=e.options;return x.createElement(x.Fragment,null,t,!l&&Number(a)>0&&x.createElement(em,{value:a,badgeType:T.Number,badgeStatus:i}),!!o&&x.createElement(em,{value:o,badgeType:T.Text,badgeStatus:n}),!!r&&x.createElement(em,{value:r,badgeType:T.Indicator,badgeStatus:s}))},aO=e=>{var{navItem:t}=e,a=(0,K.__rest)(e,["navItem"]);let{resolvedHref:i,ariaLabel:o,isSelected:n}=t.options;return x.createElement(aT,Object.assign({href:i,"data-hook":`mobile-nav-${t.name}`,"aria-label":o,role:"menuitem"},a,{"aria-current":n?"page":void 0}),x.createElement(aN,{navItem:t}))};function a_({navItem:e,navItemElement:t,onItemClick:a}){let i=(0,z.useMenu)(),o=x.useCallback(()=>{var e;null==a||a(),null==(e=null==i?void 0:i.hide)||e.call(i)},[a,i]),n=x.createElement(aI,{key:e.name,onClick:o,role:"none"},t);return q(e,n)}let aR=ee.default.div`
+  ${eO.body.large({semibold:!0})}
+  color: var(--rosetta-fg-secondary);
+  padding: var(--rosetta-size-spacing-three) var(--rosetta-size-spacing-two)
+    var(--rosetta-size-spacing-one) ${aA};
+`,aL=ee.default.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 var(--rosetta-size-spacing-three);
+`,ax=ee.default.button`
+  ${eO.body.large({semibold:!0})}
+  color: var(--rosetta-fg-secondary);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--rosetta-size-spacing-three) var(--rosetta-size-spacing-two)
+    var(--rosetta-size-spacing-one) ${aA};
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--rosetta-size-radius-two);
+
+  &:hover {
+    background: var(--rosetta-interactive-hovered);
+  }
+
+  &:focus-visible {
+    outline: 0;
+    box-shadow: inset 0px 0px 0px 2px var(--rosetta-fg-status-info);
+  }
+`,aD=ee.default.span`
+  flex: 1;
+  text-align: left;
+`,aC=ee.default.span`
+  display: inline-flex;
+  align-items: center;
+  transition: transform 150ms ease;
+  transform: ${e=>e.$collapsed?"rotate(-90deg)":"rotate(0deg)"};
+  color: var(--rosetta-fg-secondary);
+`,ay=ee.default.ul`
+  display: ${e=>e.$collapsed?"none":"block"};
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;function aw({navItem:e,navItemElement:t,configData:a}){var i;let{text:o,dataHook:n,groupStyle:r,initialCollapsed:s}=e.options,l=null!=(i=e.children)?i:[];if(0===l.length)return null;let c=l.map(e=>x.createElement(a_,{key:e.name,navItem:e,navItemElement:t&&a?x.createElement(t,{navItem:e,configData:a,renderContext:{isMobile:!0}}):x.createElement(aO,{navItem:e})}));return r===v.COLLAPSIBLE?x.createElement(ak,{label:o,dataHook:n,initialCollapsed:s},c):x.createElement("li",{role:"none"},x.createElement(aR,{"data-hook":n,"aria-label":o},o),x.createElement(aL,{role:"group"},c))}function ak({label:e,dataHook:t,initialCollapsed:a=!1,children:i}){let[o,n]=x.useState(a),r=`mobile-nav-group-children-${e_(t||e)}`;return x.createElement("li",{role:"none"},x.createElement(ax,{type:"button","aria-expanded":!o,"aria-controls":r,"aria-label":e,"data-hook":t,onClick:()=>n(e=>!e)},x.createElement(aD,null,e),x.createElement(aC,{$collapsed:o,"aria-hidden":"true"},x.createElement(z.Rosetta.ChevronDown,{width:z.IconSize.ExtraSmall,height:z.IconSize.ExtraSmall}))),x.createElement(ay,{$collapsed:o,id:r,role:"group"},i))}let aP="56px",aM="80px",aH=ee.default.div`
+  position: relative;
+  width: ${24}px;
+  height: ${24}px;
+`,aU=ee.default.span`
+  display: block;
+  position: absolute;
+  width: ${17.5}px;
+  height: ${2}px;
+  background: currentColor;
+  left: ${3.25}px;
+  border-radius: 1px;
+  transform-origin: center;
+  transition: transform ${200}ms ease,
+    opacity ${200}ms ease, height ${200}ms ease;
+
+  /* ── Top line ── */
+  &:nth-child(1) {
+    top: ${6}px;
+  }
+  [data-open="true"] > &:nth-child(1) {
+    height: ${2}px;
+    transform: translateY(${5}px) rotate(45deg);
+  }
+
+  /* ── Middle line ── */
+  &:nth-child(2) {
+    top: ${11}px;
+  }
+  [data-open="true"] > &:nth-child(2) {
+    opacity: 0;
+  }
+
+  /* ── Bottom line ── */
+  &:nth-child(3) {
+    top: ${16}px;
+  }
+  [data-open="true"] > &:nth-child(3) {
+    height: ${2}px;
+    transform: translateY(-${5}px) rotate(-45deg);
+  }
+`;function aF({isOpen:e}){return x.createElement(aH,{"data-open":e},x.createElement(aU,null),x.createElement(aU,null),x.createElement(aU,null))}let aB=ee.default.div`
+  display: flex;
+  align-items: center;
+`,aj=(0,ee.default)(z.MenuButton)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--rosetta-size-spacing-two);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--rosetta-fg-primary);
+  border-radius: var(--rosetta-size-radius-one);
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  &:hover {
+    color: var(--rosetta-fg-secondary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--rosetta-fg-primary);
+    outline-offset: -2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+`,aV=(0,ee.default)(z.Menu)`
+  && {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+    width: 100vw;
+    max-height: 100vh;
+    overflow-y: auto;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+    /* Open state — opacity instant, clip-path animated */
+    opacity: 1;
+    clip-path: inset(0 0 -24px 0);
+    transition: clip-path ${300}ms ease-out, opacity 0ms;
+
+    /* Closed state — clip animates to 56px, then opacity drops to 0 after.
+       aria-hidden is toggled via JS to keep the panel out of the
+       accessibility tree while the CSS close transition plays. */
+    &[hidden] {
+      display: flex !important;
+      opacity: 0;
+      clip-path: inset(0 0 calc(100% - ${aP}) 0);
+      pointer-events: none;
+      transition: clip-path ${300}ms ease-in,
+        opacity 0ms ${300}ms;
+    }
+  }
+
+  /* When the IncidentWarningBanner is mounted, shift the panel down so it sits
+     below the banner. Higher specificity (body.X &&) is needed to override the
+     top: 0 !important from the && block above. The clip-path animation keeps
+     working as-is — it operates within the menu's own coordinate space, so the
+     closed-state 56px strip aligns with the (also-shifted) TopNav at y=80-136. */
+  body.incident-warning-banner-visible && {
+    top: ${aM} !important;
+    max-height: calc(100vh - ${aM});
+  }
+`,aK=ee.default.div`
+  position: relative;
+  padding: 0 var(--rosetta-size-spacing-two) var(--rosetta-size-spacing-three)
+    var(--rosetta-size-spacing-two);
+`,az=ee.default.button`
+  position: absolute;
+  top: 0;
+  left: var(--rosetta-size-spacing-one);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: ${aP};
+  padding: var(--rosetta-size-spacing-two);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--rosetta-fg-primary);
+  border-radius: var(--rosetta-size-radius-one);
+  z-index: 1;
+
+  &:hover {
+    color: var(--rosetta-fg-secondary);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--rosetta-fg-primary);
+    outline-offset: -2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+`,a$=ee.default.ul`
+  list-style: none;
+  margin: 0;
+  padding: ${aP} 0 0 0;
+`;function aG({visible:e}){return x.useEffect(()=>(document.body.style.overflow=e?"hidden":"",()=>{document.body.style.overflow=""}),[e]),null}function aY({navItems:e,dataHook:t,className:a,navItemElement:i,configData:o}){let n=x.useMemo(()=>{var t;return null!=(t=null==e?void 0:e.filter(e=>{var t;return(null==(t=e.options)?void 0:t.show)&&e.itemRenderType!==b.LIST_DIVIDER}))?t:[]},[e]),r=x.useCallback(e=>x.createElement(aj,Object.assign({},e,{"aria-label":e.visible?"Close navigation menu":"Open navigation menu","data-hook":`${t}-hamburger`}),x.createElement(z.Rosetta.MenuHamburger,{width:z.IconSize.Medium,height:z.IconSize.Medium})),[t]);return x.createElement(aB,{className:a,"data-hook":t},x.createElement(aV,{"data-size":z.MenuSize.Medium,minWidth:"100vw",placement:z.MenuPlacement.BottomStart,disclosure:r,"aria-label":"Navigation menu",render:e=>x.createElement(aK,{"aria-hidden":!e.visible},x.createElement(aG,{visible:!!e.visible}),x.createElement(az,{onClick:()=>{var t;return null==(t=e.hide)?void 0:t.call(e)},"data-hook":`${t}-close`,"aria-label":"Close navigation menu"},x.createElement(aF,{isOpen:!!e.visible})),x.createElement(a$,null,n.map(e=>e.itemRenderType===b.GROUP_LABEL?x.createElement(aw,{key:e.name,navItem:e,navItemElement:i,configData:o}):x.createElement(a_,{key:e.name,navItem:e,navItemElement:i&&o?x.createElement(i,{navItem:e,configData:o,renderContext:{isMobile:!0}}):x.createElement(aO,{navItem:e})}))))}))}let aW=ee.default.nav`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 var(--rosetta-size-spacing-five);
+  background-color: var(--rosetta-bg-primary);
+  border-bottom: 1px solid var(--rosetta-fg-border);
+
+  /* Reduce padding on mobile: 4px left, 8px right */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    padding: 0 var(--rosetta-size-spacing-two) 0 var(--rosetta-size-spacing-one);
+  }
+`,aJ=ee.default.div`
+  display: none;
+  align-items: center;
+
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    display: flex;
+  }
+`,aX=ee.default.div`
+  display: flex;
+  align-items: stretch;
+  align-self: stretch;
+  flex: 1;
+
+  /* On mobile, page title shown but takes less space (no tabs) */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    align-items: center;
+  }
+`,aq=ee.default.div`
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: var(--rosetta-size-spacing-three);
+
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    margin-left: var(--rosetta-size-spacing-three);
+  }
+
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.ExtraSmall)} {
+    margin-right: 0;
+  }
+`,aQ=ee.default.div`
+  display: flex;
+  align-items: center;
+  gap: var(--rosetta-size-spacing-two);
+
+  /* Tighter spacing at mobile breakpoint */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    gap: var(--rosetta-size-spacing-one);
+    margin-left: var(--rosetta-size-spacing-one); /* 4px gap from tabs */
+  }
+`,aZ=ee.default.ul`
+  display: flex;
+  align-items: center;
+  gap: var(--rosetta-size-spacing-two);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  /* Hide Contact Support text link at Small breakpoint (≤768px) */
+  /* It remains available in the Account Menu at mobile sizes */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    li:has([data-hook*="contact-support"]) {
+      display: none;
+    }
+  }
+`;function a0({className:e,dataHook:t,ariaLabel:a="Top navigation",logo:i,pageNav:o,accountNavItems:n,accountMenu:r,mobileMenu:s}){return x.createElement(aW,{className:e,"data-hook":t,"aria-label":a},i&&x.createElement(aq,{"data-section":"logo"},i),s&&x.createElement(aJ,{"data-section":"mobile-menu"},s),x.createElement(aX,{"data-section":"page-nav"},o),x.createElement(aQ,{"data-section":"account"},n&&n.length>0&&x.createElement(aZ,null,n),r))}let a1=ee.default.div`
+  display: flex;
+  align-items: center;
+  border-radius: var(--rosetta-size-radius-two);
+  flex-shrink: 0;
+
+  &:focus-within {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: 1px;
+  }
+
+  a:focus {
+    outline: none;
+  }
+
+  /* Per Figma spacing tweaks: 32px logo at XS (≤479px), 36px at 480px+ */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.ExtraSmall)} {
+    transform: scale(0.889);
+    transform-origin: left center;
+  }
+`,a2=({navItem:e,navItemElement:t})=>{let a=q(e,x.createElement(a1,null,t));return e?a:null},a4=ee.default.nav`
+  margin-left: var(--rosetta-size-spacing-five);
+  margin-bottom: -1px;
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+
+  /* On mobile, show as dropdown selector */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    margin-left: var(--rosetta-size-spacing-five);
+    margin-right: 0;
+    align-items: center;
+    flex: 1 1 auto;
+    min-width: 0; /* Allow shrinking below content size */
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  /* Per Figma spacing tweaks: 8px at XS (≤479px), 20px at 480px+. Applies to all mobile top nav (with or without logo). */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.ExtraSmall)} {
+    margin-left: var(--rosetta-size-spacing-two);
+  }
+`,a9=ee.default.div`
+  display: none;
+
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    min-width: 0; /* Allow shrinking below content size */
+    width: 100%;
+  }
+`,a8=(0,ee.default)(z.Select)`
+  width: 100%;
+  min-width: 0; /* Allow shrinking */
+
+  &[data-size=${z.FieldSize.Small}] {
+    grid-template-rows: 0px 36px !important;
+    gap: 0px !important;
+    min-width: 0;
+  }
+
+  /* On iOS Safari, -webkit-box with vertical orientation centers content on the cross
+   * (horizontal) axis by default. Override to align the selected label to the start. (FEP-3918) */
+  output {
+    text-align: left;
+    -webkit-box-align: start;
+  }
+
+  [role="combobox"]:focus-visible {
+    outline: 2px solid var(--rosetta-interactive-focusOutline);
+    outline-offset: -2px;
+    border-radius: var(--rosetta-size-radius-two);
+  }
+`,a5=(0,ee.default)(z.Option)`
+  &[aria-selected="true"][data-current="true"] {
+    box-shadow: none;
+  }
+`,a6=ee.default.div`
+  display: flex;
+  align-items: stretch;
+  gap: var(--rosetta-size-spacing-five);
+  height: 100%;
+
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.Small)} {
+    display: none;
+  }
+`,a3=ee.default.a`
+  ${eO.body.medium({semibold:!0})}
+  display: flex;
+  align-items: center;
+  gap: var(--rosetta-size-spacing-one);
+  box-sizing: border-box;
+  padding: var(--rosetta-size-spacing-two) 0;
+  text-decoration: none;
+  color: ${e=>e.$isSelected?"var(--rosetta-fg-primary)":"var(--rosetta-fg-secondary)"};
+  border-bottom: ${e=>e.$isSelected?"2px solid var(--rosetta-fg-primary)":"2px solid transparent"};
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: var(--rosetta-fg-primary);
+  }
+
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--rosetta-interactive-focusOutline);
+    outline-offset: 2px;
+  }
+`,a7=ee.default.span`
+  display: inline-flex;
+  align-items: center;
+  gap: var(--rosetta-size-spacing-one);
+`,ie=(0,ee.default)(z.MenuAction)`
+  && {
+    ${eO.body.medium({semibold:!0})}
+    display: flex;
+    align-items: center;
+    gap: var(--rosetta-size-spacing-one);
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: var(--rosetta-size-spacing-two) 0;
+    color: var(--rosetta-fg-secondary);
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    height: auto;
+    min-height: unset;
+
+    &:hover {
+      background: transparent;
+      color: var(--rosetta-fg-primary);
+      border-bottom: 2px solid transparent;
+    }
+
+    &:focus-visible {
+      background: transparent;
+      outline: 2px solid var(--rosetta-interactive-focusOutline);
+      outline-offset: 2px;
+    }
+  }
+`;function it({tabs:e,translator:t,className:a,maxVisibleTabsMedium:i=5,overflowLabel:o="More",linkComponent:n,onNavigate:r}){let s=x.useMemo(()=>V(t),[t]),l=Z.useScreenSize(),c=e.filter(e=>e.options.show);if(0===c.length)return null;let d=l.isLargerThan(Z.ScreenSizes.Medium),p=d?c:c.slice(0,i),m=d?[]:c.slice(i),u=c.find(e=>e.options.isSelected),E=m.find(e=>e.options.isSelected),g=!!E,h=(null==E?void 0:E.options.text)||o,f=e=>{let{text:t,textBadge:a,textBadgeStatus:i}=e;return x.createElement(a7,null,t,a&&x.createElement(ed,{value:a,badgeType:T.Text,badgeStatus:i}))},b=({navItem:e})=>{let{name:t,options:a}=e,{resolvedHref:i,isSelected:o}=a;return q(e,n?x.createElement(a3,{key:t,as:n,to:i,href:i,$isSelected:o,"aria-current":o?"page":void 0,role:"tab","aria-selected":o},f(a)):x.createElement(a3,{key:t,href:i,$isSelected:o,"aria-current":o?"page":void 0,role:"tab","aria-selected":o},f(a)))};return x.createElement(a4,{className:a},x.createElement(a6,{role:"tablist","aria-label":s("topBarNavTab")},p.map(e=>x.createElement(b,{key:e.name,navItem:e})),m.length>0&&x.createElement(z.Menu,{"data-size":z.MenuSize.Small,disclosure:e=>{var{visible:t}=e,a=(0,K.__rest)(e,["visible"]);return x.createElement(ie,Object.assign({},a,{visible:t,$hasSelection:g,role:"tab"}),h,x.createElement(z.MenuArrowIcon,{visible:!!t,"data-size":z.MenuSize.Small}))}},m.map(e=>{let{name:t,options:a}=e,{text:i,resolvedHref:o,isSelected:n}=a;return x.createElement(z.MenuItem,{key:t,onClick:()=>{r?r(o):window.location.href=o},"data-selected":n},i)}))),x.createElement(a9,null,x.createElement(a8,{"data-size":z.FieldSize.Small,value:(null==u?void 0:u.options.resolvedHref)||"",onChange:e=>{let t=e.target.value;t&&(r?r(t):window.location.href=t)},"aria-label":s("topBarNavTab")},c.map(e=>{let{name:t,options:a}=e,{text:i,resolvedHref:o}=a;return x.createElement(a5,{key:t,value:o,label:i},i)}))))}let ia=ee.default.div`
+  ${eO.body.large({semibold:!0})}
+  display: flex;
+  color: var(--rosetta-fg-primary);
+  flex: 1;
+  min-width: 0; /* Allow shrinking below content size */
+  align-items: center;
+  height: 100%;
+`,ii=ee.default.div`
+  ${eO.body.medium()}
+  display: flex;
+  color: var(--rosetta-fg-primary);
+  flex: 1;
+  gap: var(--rosetta-size-spacing-three);
+  align-items: center;
+`,io=ee.default.div`
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  flex-shrink: 0;
+`,ir=ee.default.h1`
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  position: relative;
+  white-space: nowrap;
+`,is=ee.default.div`
+  margin-left: var(--rosetta-size-spacing-eight);
+  display: flex;
+  align-items: stretch;
+  gap: var(--rosetta-size-spacing-four);
+  height: 100%;
+`,il=ee.default.div`
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  /* Selected indicator at the bottom */
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: ${e=>e.$isSelected?"var(--rosetta-fg-primary)":"transparent"};
+  }
+`,ic=ee.default.a`
+  ${eO.body.medium({semibold:!0})}
+  text-decoration: none;
+  padding: var(--rosetta-size-spacing-one) var(--rosetta-size-spacing-two);
+  color: ${e=>e.$isSelected?"var(--rosetta-fg-primary)":"var(--rosetta-fg-secondary)"};
+
+  &:hover {
+    color: var(--rosetta-fg-primary);
+    text-decoration: none;
+  }
+`,id=ee.default.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--rosetta-fg-primary);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--rosetta-fg-secondary);
+  }
+`;function ip({items:e,ariaLabel:t}){return x.createElement(is,{role:"tablist","aria-label":t},e.map(e=>x.createElement(il,{key:e.id,$isSelected:e.isSelected},x.createElement(ic,{href:e.href,$isSelected:e.isSelected,role:"tab","aria-selected":e.isSelected},e.label))))}function im({href:e,ariaLabel:t,children:a}){return x.createElement(id,{href:e,"aria-label":t},a)}function iu({pageConfig:e,translator:t,className:a,tabs:i,backLink:o,TabsComponent:n=ip,BackLinkComponent:r=im,linkComponent:s,onNavigate:l,maxVisibleTabsMedium:c=5,overflowLabel:d,pageNavConfig:p}){var m,u,E,h,f;let v=x.useMemo(()=>V(t),[t]),S=null==(m=null==e?void 0:e.pageNavOptions)?void 0:m.siblings,{pageNavOptions:I}=e,T=x.useMemo(()=>(e=>{if(e&&0!==e.length)return e.map(e=>({id:e.name,label:e.options.text,href:e.options.resolvedHref,isSelected:e.options.isSelected}))})(S),[S]),N=x.useMemo(()=>{if((null==p?void 0:p.tabs)&&p.tabs.length>0){let{tabs:e,hiddenTabs:t}=p;return(t?e.filter(e=>!t.includes(e.dataHook||"")&&!t.includes(e.text)):e).map((e,t)=>({name:e.dataHook||`custom-tab-${t}`,href:e.href,itemRenderType:b.STANDARD_LINK,location:A.TOPBAR_PAGE_NAV,itemHomeApp:g.CONSUMER,currentAppName:g.CONSUMER,options:{show:!0,order:t,text:e.text,ariaLabel:e.ariaLabel||e.text,resolvedHref:e.href,isSelected:e.isSelected,dataHook:e.dataHook||`custom-tab-${t}`}}))}},[p]),O=null!=(u=null==p?void 0:p.mode)?u:"auto";if("none"===O)return null;if("custom"===O&&(null==p?void 0:p.render))return x.createElement(x.Fragment,null,p.render());let _=null!=(E=null==p?void 0:p.title)?E:null==I?void 0:I.titleText,R=null!=(f=null!=(h=null==p?void 0:p.titleAriaLabel)?h:null==p?void 0:p.title)?f:null==I?void 0:I.titleAriaLabel;if("title-only"===O)return _?x.createElement(ia,{className:a,"data-hook":"page-nav"},x.createElement(io,null,x.createElement(ir,{"aria-label":R},_))):null;if("back-link"===O){let e=null==p?void 0:p.backLink;return e?x.createElement(ii,{className:a,"data-hook":"page-nav-back"},x.createElement(r,{href:e.href,ariaLabel:e.ariaLabel||v("backNavigation")},x.createElement(z.Rosetta.ArrowLeft,{width:z.IconSize.Medium}),e.text),x.createElement(io,null,_)):_?x.createElement(ia,{className:a,"data-hook":"page-nav"},x.createElement(io,null,x.createElement(ir,{"aria-label":R},_))):null}if("tabs"===O)return _?x.createElement(ia,{className:a,"data-hook":"page-nav"},x.createElement(io,null,x.createElement(ir,{$hasTabs:!!N,"aria-label":R},_)),N&&N.length>0&&x.createElement(it,{tabs:N,translator:t,linkComponent:s,onNavigate:l,maxVisibleTabsMedium:c,overflowLabel:d||v("more")})):null;if(!I)return null;let{backNavigationHref:L,backNavigationLabel:D}=I,C=i&&i.length>0,y=!!S&&S.length>0,w=!!T&&T.length>0;return L&&D?x.createElement(ii,{className:a,"data-hook":"page-nav-back"},o||x.createElement(r,{href:L,ariaLabel:v("backNavigation")},x.createElement(z.Rosetta.ArrowLeft,{width:z.IconSize.Medium})),x.createElement(io,null,D)):x.createElement(ia,{className:a,"data-hook":"page-nav"},x.createElement(io,null,x.createElement(ir,{$hasTabs:C||y||w,"aria-label":R},_)),C?x.createElement(is,{role:"tablist","aria-label":v("topBarNavTab")},i):y?x.createElement(it,{tabs:S,translator:t,linkComponent:s,onNavigate:l,maxVisibleTabsMedium:c,overflowLabel:d||v("more")}):w?x.createElement(n,{items:T,ariaLabel:v("topBarNavTab")}):null)}let iE=ee.default.a`
+  ${eO.body.medium()}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--rosetta-size-spacing-two) var(--rosetta-size-spacing-four);
+  color: var(--rosetta-fg-primary);
+  text-decoration: none;
+  border-radius: var(--rosetta-size-radius-two);
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+
+  &:hover {
+    background: var(--rosetta-interactive-hovered);
+  }
+
+  &:active {
+    background: var(--rosetta-bg-selected);
+  }
+
+  &:focus-visible {
+    outline: 0;
+    box-shadow: inset 0px 0px 0px 2px var(--rosetta-fg-status-info);
+    border-radius: var(--rosetta-size-radius-two);
+  }
+`,ig=ee.default.div`
+  height: 0;
+  margin: var(--rosetta-size-spacing-two) 0;
+  border-top: 1px solid var(--rosetta-fg-border);
+`,ih=({count:e,status:t,dataHook:a})=>{let i=t===N.Info?z.NumberNeutralBadge:z.NumberBadge;return x.createElement(i,{"data-hook":a},e)},ib=ee.default.span`
+  display: inline-flex;
+  margin-left: var(--rosetta-size-spacing-two);
+  color: var(--rosetta-fg-secondary);
+`,iv=ee.default.li`
+  list-style: none;
+`,iS=ee.default.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--rosetta-size-spacing-two) var(--rosetta-size-spacing-four);
+`,iA=ee.default.span`
+  color: var(--rosetta-fg-secondary);
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: calc(100% - 32px);
+`,iI=ee.default.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Anchor for absolute CheckIconWrapper */
+  padding: var(--rosetta-size-spacing-one);
+  background: none;
+  border: none;
+  border-radius: var(--rosetta-size-radius-one);
+  color: ${e=>e.$copied?"var(--rosetta-fg-status-success)":"var(--rosetta-fg-secondary)"};
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    background: var(--rosetta-interactive-hovered);
+    color: ${e=>e.$copied?"var(--rosetta-fg-status-success)":"var(--rosetta-fg-primary)"};
+  }
+
+  &:focus {
+    outline: 2px solid var(--rosetta-fg-primary);
+    outline-offset: -2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  &:active {
+    background: var(--rosetta-interactive-hovered);
+  }
+`,iT=ee.default.span`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: ${e=>e.$copied?"0":"1"};
+  transform: scale(${e=>e.$copied?"0.5":"1"});
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+`,iN=ee.default.span`
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.5);
+  opacity: 0;
+  animation: scaleIn 2s ease-out 0.2s, opacity 0.2s ease-in-out 0.2s;
+
+  @keyframes scaleIn {
+    0 {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    10% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    80% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    90% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+`;function iO({copyableValue:e,ariaLabel:t,dataHook:a,errorMessage:i=U.failedToCopyToClipboard,onCopy:o}){let n=x.useRef(null),[r,s]=x.useState(!1);x.useEffect(()=>{if(r){let e=setTimeout(()=>{s(!1)},2e3);return()=>clearTimeout(e)}},[r]);let l=()=>(0,K.__awaiter)(this,void 0,void 0,function*(){var t;if(e)try{yield navigator.clipboard.writeText(e),s(!0),null==(t=n.current)||t.blur(),null==o||o()}catch(e){console.error(i,e)}});return x.createElement(iS,{"data-hook":a},x.createElement(iA,{title:e},e),x.createElement(iI,{ref:n,type:"button",onClick:l,"aria-label":t,"data-hook":a?`${a}-copy-button`:void 0,$copied:r},r&&x.createElement(iN,null,x.createElement(z.Rosetta.Check,{width:z.IconSize.ExtraSmall})),x.createElement(iT,{$copied:r},x.createElement(z.Rosetta.Copy,{width:z.IconSize.ExtraSmall}))))}let i_=({navItem:e})=>{let{text:t,numberBadge:a,numberBadgeStatus:i,target:o}=e.options,n=o===I.BLANK;return x.createElement(x.Fragment,null,x.createElement("span",null,t),n&&x.createElement(ib,null,x.createElement(z.Rosetta.ShareExternal,{width:z.IconSize.ExtraSmall})),void 0!==a&&a>0&&x.createElement(ih,{count:a,status:i}))},iR=e=>{var{navItem:t}=e,a=(0,K.__rest)(e,["navItem"]);let{currentAppName:i,options:o}=t,{resolvedHref:n,ariaLabel:r,target:s,dataHook:l}=o,c=s===I.BLANK;return x.createElement(iE,Object.assign({href:n,"data-hook":l||`${i||"rosetta"}-account-menu-link`,"aria-label":r,target:c?"_blank":void 0,rel:c?"noopener noreferrer":void 0,role:"menuitem"},a),x.createElement(i_,{navItem:t}))};function iL({navItem:e,navItemElement:t,onItemClick:a}){let i=(0,z.useMenu)(),{itemRenderType:o,name:n,options:r}=e,{dataHook:s}=r,l=x.useCallback(()=>{var e;null==a||a(),null==(e=null==i?void 0:i.hide)||e.call(i)},[a,i]),c=q(e,(o!==b.LIST_DIVIDER?x.createElement(iv,{key:n,onClick:l},t):null)||x.createElement("span",null));if(o===b.LIST_DIVIDER)return x.createElement(ig,{"data-hook":s,role:"separator"});if(o===b.COPYABLE_ID){let{ariaLabel:e,copyableValue:t}=r;return x.createElement(iv,{key:n},x.createElement(iO,{copyableValue:t,ariaLabel:e,dataHook:s}))}return c}e.s(["AccountMenuBadge",0,ih,"AccountMenuItem",0,iL,"AccountMenuItemElement",0,({navItem:e,customItemType:t,linkElementsMap:a})=>Q({navItem:e,standardElement:iR,customItemType:t,linkElementsMap:a}),"CopyableIdItemBase",0,iO,"StandardAccountMenuItemLink",0,iR],8991941);let ix=ee.default.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+`,iD=ee.default.span`
+  display: none;
+  position: absolute;
+  top: -2px;
+  right: 4px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--rosetta-fg-inverted);
+  background-color: var(--rosetta-fg-status-negative);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+
+  /* Only show at ExtraSmall breakpoint when notification bell is hidden */
+  ${Z.screenSize.isAtMost(Z.ScreenSizes.ExtraSmall)} {
+    display: flex;
+  }
+`,iC=ee.default.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: var(--rosetta-bg-secondary);
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    border-color: var(--rosetta-fg-secondary);
+    outline: none;
+  }
+
+  ${e=>e.$isOpen&&`
+    border-color: var(--rosetta-fg-primary);
+  `}
+`,iy=ee.default.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`,iw=ee.default.span`
+  ${eO.body.small({semibold:!0})}
+  color: var(--rosetta-fg-primary);
+  text-transform: uppercase;
+`,ik=(0,ee.default)(z.Menu)`
+  max-height: 80vh;
+  overflow-y: auto;
+`,iP=ee.default.a.attrs({role:"menuitem"})`
+  ${eO.body.medium()}
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--rosetta-size-spacing-two) var(--rosetta-size-spacing-four);
+  color: var(--rosetta-fg-primary);
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  border-radius: var(--rosetta-size-radius-two);
+  cursor: pointer;
+  transition: background 200ms ease-in-out;
+
+  &:hover {
+    background: var(--rosetta-interactive-hovered);
+  }
+
+  &:active {
+    background: var(--rosetta-bg-selected);
+  }
+
+  &:focus-visible {
+    outline: 0;
+    box-shadow: inset 0px 0px 0px 2px var(--rosetta-fg-status-info);
+    border-radius: var(--rosetta-size-radius-two);
+  }
+`,iM=ee.default.div`
+  height: 0;
+  margin: var(--rosetta-size-spacing-two) 0;
+  border-top: 1px solid var(--rosetta-fg-border);
+`,iH=ee.default.span`
+  display: inline-flex;
+  margin-left: var(--rosetta-size-spacing-two);
+  color: var(--rosetta-fg-secondary);
+`,iU=ee.default.span`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+`;function iF({avatarUrl:e,userInitials:t,userName:a,isOpen:i,onClick:o,ariaLabel:n}){return x.createElement(iC,{$isOpen:i,onClick:o,"aria-label":n,"aria-expanded":i,"aria-haspopup":"menu","data-hook":"account-menu-button"},e?x.createElement(iy,{src:e,alt:a||""}):x.createElement(iw,null,t||"?"))}let iB=(0,ee.default)(z.MenuButton)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background: var(--rosetta-bg-secondary);
+  cursor: pointer;
+  overflow: hidden;
+  transition: border-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    border-color: var(--rosetta-fg-secondary);
+    outline: none;
+  }
+
+  ${e=>e.$isOpen&&`
+    border-color: var(--rosetta-fg-primary);
+  `}
+`;function ij({menuState:e,avatarUrl:t,userInitials:a,userName:i,ariaLabel:o,hasCustomAvatarButton:n,AvatarButtonComponent:r,onVisibilityChange:s}){let{visible:l}=e,c=x.useRef(void 0);return(x.useEffect(()=>{void 0!==c.current&&!!l!==c.current&&s(!!l),c.current=!!l},[l,s]),n)?x.createElement(r,{avatarUrl:t,userInitials:a,userName:i,isOpen:!!l,ariaLabel:o,onClick:e.onClick}):x.createElement(iB,Object.assign({},e,{$isOpen:l,"aria-label":o,"data-hook":"account-menu-button"}),t?x.createElement(iy,{src:t,alt:i||""}):x.createElement(iw,null,a||"?"))}function iV({href:e,text:t,ariaLabel:a,target:i,dataHook:o,numberBadge:n,numberBadgeStatus:r,onClick:s}){let l=(0,z.useMenu)();return x.createElement(z.MenuItem,{as:iP,href:e,"aria-label":a,target:i,rel:"_blank"===i?"noopener noreferrer":void 0,"data-hook":o,onClick:()=>{var e;null==s||s(),null==(e=null==l?void 0:l.hide)||e.call(l)}},x.createElement(iU,null,x.createElement("span",null,t),"_blank"===i&&x.createElement(iH,null,x.createElement(z.Rosetta.ShareExternal,{width:z.IconSize.ExtraSmall})),void 0!==n&&n>0&&x.createElement(ih,{count:n,status:r,dataHook:o?`${o}-badge`:void 0})))}function iK({href:e,text:t,ariaLabel:a,target:i,dataHook:o,numberBadge:n,numberBadgeStatus:r,onClick:s}){return x.createElement(iV,{href:e,text:t,ariaLabel:a,target:i,dataHook:o,numberBadge:n,numberBadgeStatus:r,onClick:s})}function iz(e){var{MenuItemComponent:t}=e,a=(0,K.__rest)(e,["MenuItemComponent"]);let i=(0,z.useMenu)(),o=x.useCallback(()=>{var e;null==(e=null==i?void 0:i.hide)||e.call(i)},[i]);return x.createElement(t,Object.assign({},a,{onClick:o}))}function i$({copyableValue:e,ariaLabel:t,dataHook:a,errorMessage:i}){return x.createElement(z.MenuItem,{as:"div"},x.createElement(iO,{copyableValue:e,ariaLabel:t,dataHook:a,errorMessage:i}))}function iG({user:e,menuItems:t,accountMenuItems:a=[],translator:i,className:o,MenuItemComponent:n=iK,AvatarButtonComponent:r=iF,onMenuOpen:s,onMenuClose:l,notificationCount:c}){let d=x.useMemo(()=>V(i),[i]),p=x.useRef(void 0),{avatarUrl:m,initials:u,name:E}=e,g=t&&t.length>0,h=a.filter(e=>e.options.show),f=x.useCallback(e=>{p.current!==e&&(p.current=e,e?null==s||s():null==l||l())},[s,l]),v=x.useCallback(e=>x.createElement(ij,{menuState:e,avatarUrl:m,userInitials:u,userName:E,ariaLabel:d("openProfileOptions"),hasCustomAvatarButton:r!==iF,AvatarButtonComponent:r,onVisibilityChange:f}),[m,u,E,d,r,f]),S=x.useMemo(()=>g?t:h.map(e=>{let{name:t,itemRenderType:a}=e,{resolvedHref:i,text:o,ariaLabel:r,target:s,dataHook:l,numberBadge:c,numberBadgeStatus:p,copyableValue:m}=e.options;if(a===b.LIST_DIVIDER)return x.createElement(iM,{key:t,role:"separator"});if(a===b.COPYABLE_ID)return x.createElement(i$,{key:t,copyableValue:m,ariaLabel:r||d("fellowId"),dataHook:l,errorMessage:d("failedToCopyToClipboard")});let u=s===I.BLANK?"_blank":void 0;return n!==iK?x.createElement(iz,{key:t,MenuItemComponent:n,href:i,text:o,ariaLabel:r,target:u,dataHook:l,numberBadge:c,numberBadgeStatus:p}):x.createElement(n,{key:t,href:i,text:o,ariaLabel:r,target:u,dataHook:l,numberBadge:c,numberBadgeStatus:p})}),[g,t,h,d,n]);if(!g&&0===h.length)return null;let A=void 0!==c&&c>0?c>99?"99+":String(c):null;return x.createElement(ix,{className:o,"data-hook":"account-dropdown"},A&&x.createElement(iD,{"data-hook":"avatar-notification-badge"},A),x.createElement(ik,{"data-size":z.MenuSize.Small,minWidth:"320px",placement:z.MenuPlacement.BottomEnd,disclosure:v,"aria-label":d("accountMenu")},S))}ee.default.a`
+  text-decoration: none;
+  color: ${e=>e.$isSelected?"var(--rosetta-fg-primary)":"var(--rosetta-fg-secondary)"};
+
+  &:hover {
+    color: var(--rosetta-fg-primary);
+  }
+
+  &:focus-visible {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: 2px;
+  }
+`;let iY=ee.default.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--rosetta-fg-primary);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--rosetta-fg-secondary);
+  }
+
+  &:focus-visible {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: 2px;
+  }
+`;function iW({navItem:e,children:t}){return x.createElement(x.Fragment,null,t)}function iJ(e){var{navItem:t,children:a}=e,i=(0,K.__rest)(e,["navItem","children"]);let{currentAppName:o,options:n}=t,{resolvedHref:r,ariaLabel:s,dataHook:l}=n;return x.createElement(iY,Object.assign({href:r,"data-hook":l||`${o||"rosetta"}-topnav-back-link`,"aria-label":s},i),x.createElement(iW,{navItem:t},a))}ee.default.span`
+  display: inline-flex;
+`;let iX=ee.default.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: var(--rosetta-fg-primary);
+  text-decoration: none;
+  padding: var(--rosetta-size-spacing-two);
+  border-radius: var(--rosetta-size-radius-two);
+
+  &:hover {
+    background-color: var(--rosetta-interactive-hovered);
+  }
+
+  &:focus-visible {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: 2px;
+  }
+`,iq=ee.default.span`
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--rosetta-fg-inverted);
+  background-color: var(--rosetta-fg-status-negative);
+  border-radius: 8px;
+`,iQ=(0,ee.default)(z.TertiaryButton)`
+  && {
+    white-space: nowrap;
+    border-radius: var(--rosetta-size-radius-two);
+
+    &:hover {
+      background-color: var(--rosetta-interactive-hovered);
+      text-decoration: none;
+    }
+  }
+`,iZ=ee.default.a`
+  ${eO.body.medium({semibold:!0})}
+  display: flex;
+  align-items: center;
+  gap: var(--rosetta-size-spacing-two);
+  padding: var(--rosetta-size-spacing-two) var(--rosetta-size-spacing-four);
+  color: var(--rosetta-fg-primary);
+  background-color: var(--rosetta-bg-primary);
+  border: 1px solid var(--rosetta-fg-border);
+  border-radius: var(--rosetta-size-radius-two);
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: var(--rosetta-interactive-hovered);
+  }
+
+  &:focus-visible {
+    outline: var(--rosetta-fg-status-info) solid 2px;
+    outline-offset: 2px;
+  }
+`,i0=ee.default.li`
+  display: flex;
+  align-items: center;
+  list-style: none;
+`,i1=({navItem:e})=>{let{icon:t,numberBadge:a}=e.options;return x.createElement(x.Fragment,null,t,void 0!==a&&a>0&&x.createElement(iq,null,a>99?"99+":a))},i2=({navItem:e})=>{let{text:t}=e.options;return x.createElement(x.Fragment,null,x.createElement(z.Rosetta.ShareExternal,{width:z.IconSize.Small}),t)},i4=e=>{var{navItem:t}=e,a=(0,K.__rest)(e,["navItem"]);let{currentAppName:i,options:o}=t,{resolvedHref:n,ariaLabel:r,dataHook:s}=o;return x.createElement(iX,Object.assign({href:n,"data-hook":s||`${i||"rosetta"}-account-nav-icon-link`,"aria-label":r},a),x.createElement(i1,{navItem:t}))},i9=e=>{var{navItem:t}=e,a=(0,K.__rest)(e,["navItem"]);let{currentAppName:i,options:o}=t,{resolvedHref:n,ariaLabel:r,target:s,dataHook:l}=o,c=s===I.BLANK;return x.createElement(iZ,Object.assign({href:n,"data-hook":l||`${i||"rosetta"}-account-nav-app-button`,"aria-label":r,target:c?"_blank":void 0,rel:c?"noopener noreferrer":void 0},a),x.createElement(i2,{navItem:t}))},i8=e=>{var{navItem:t}=e,a=(0,K.__rest)(e,["navItem"]);let{currentAppName:i,options:o}=t,{resolvedHref:n,ariaLabel:r,text:s,target:l,dataHook:c}=o,d=l===I.BLANK;return x.createElement(iQ,Object.assign({as:"a",size:z.Size.small,href:n,"data-hook":c||`${i||"rosetta"}-account-nav-link`,"aria-label":r,target:d?"_blank":void 0,rel:d?"noopener noreferrer":void 0},a),s)};function i5(e){switch(e.itemRenderType){case b.ICON_LINK:return i4;case b.APP_BUTTON_LINK:return i9;case b.CUSTOM_LINK:if(e.options.icon)return i4;if(e.options.target===I.BLANK)return i9;return i8;default:return i8}}let i6=({navItem:e,navItemElement:t})=>{let{name:a}=e;return q(e,x.createElement(i0,{key:a},t))};e.s(["AccountNavItem",0,i6,"AccountNavItemElement",0,({navItem:e,customItemType:t,linkElementsMap:a})=>Q({navItem:e,standardElement:i5(e),customItemType:t,linkElementsMap:a}),"StandardAccountNavLink",0,i8,"selectAccountNavComponent",0,i5],3744012);let{JOB_SEARCH:i3,SAVED_FEED:i7,FOR_YOU:oe,SAVED_JOBS:ot,JOB:oa,JOBS_HOME:oi,JOB_COLLECTIONS:oo,HOME:on,EXPLORE:or,EVENTS:os,INBOX:ol,NOTIFICATIONS:oc,EMPLOYERS:od,PEOPLE:op,CAREER_CENTER:om,FELLOWS:ou,FELLOW_HOME:oE,PROJECT:og,PROJECT_TASKS:oh,PROJECTS_HOME:of,PROJECTS_INVITATION:ob,PAYMENTS:ov,PAYMENTS_SETUP:oS,REFERRALS:oA,PROFILE:oI,FELLOW_DASHBOARD:oT,FELLOW_WELCOME:oN,FELLOW_FORMS:oO,FELLOW_INTERVIEW_COMPLETED:o_,FELLOW_MOVE_APPLICATION:oR,FELLOW_ONBOARDING_WEBINAR:oL,FELLOW_THANK_YOU:ox,CUSTOMERS_HOME:oD,CUSTOMERS_DASHBOARD:oC,CUSTOMERS_CONTRACT:oy,FELLOWS_BPO_HOME:ow,FELLOWS_BPO_DASHBOARD:ok,OPERATOR_ROLES_OVERVIEW:oP,OPERATOR_ROLES_CONFIGURATIONS:oM,OPERATOR_PAY_RATES:oH,OPERATOR_INCENTIVES:oU,DEACTIVATED:oF,APPLICATIONS:oB,DOCUMENTS:oj,MY_MEETINGS:oV,CAREER_INTERESTS:oK,NOTIFICATION_PREFERENCES:oz,AFFILIATIONS:o$,SETTINGS:oG,SWITCH_USERS:oY,VIEW_ALL_TOGGLES:oW,BLOCKED_USERS:oJ}=_,{OPEN_EMPLOYER_APP:oX,OPEN_EDU_APP:oq,CONTACT_SUPPORT:oQ,NOTIFICATIONS:oZ}=R,{TOPBAR_ACCOUNT_NAV:o0}=A,o1=[oX,oq,oQ,oZ],{MY_PROFILE:o2,HAI_PROFILE_ID:o4,MY_JOBS:o9,MY_MEETINGS:o8,MY_DOCUMENTS:o5,CAREER_INTERESTS:o6,MY_REVIEWS:o3,NOTIFICATION_PREFERENCES:o7,SCHOOL_CONNECTIONS:ne,SETTINGS:nt,SWITCH_USERS:na,CONTACT_SUPPORT:ni,HELP_CENTER:no,TERMS_OF_SERVICE:nn,SWITCH_TO_EMPLOYER:nr,SWITCH_TO_EDU:ns,SWITCH_TO_ADMIN:nl,HAI_ANNOTATIONS:nc,HAI_ADMIN:nd,HAI_PAYOUTS:np,HAI_FELLOW_DASHBOARD:nm,LOGOUT:nu,VIEW_ALL_TOGGLES:nE,PROFILE_SECTION_DIVIDER:ng,SWITCH_SECTION_DIVIDER:nh,SUPPORT_SECTION_DIVIDER:nf,ENTERPRISE_SECTION_DIVIDER:nb,TOGGLES_SECTION_DIVIDER:nv,DEV_ACCOUNTS_DIVIDER:nS}=R,{TOPBAR_ACCOUNT_MENU:nA}=A,{NOTIFICATIONS:nI,MY_PROFILE:nT,MY_JOBS:nN,MY_MEETINGS:nO,MY_DOCUMENTS:n_,CAREER_INTERESTS:nR,MY_REVIEWS:nL,NOTIFICATION_PREFERENCES:nx,SCHOOL_CONNECTIONS:nD,SETTINGS:nC,SWITCH_USERS:ny,CONTACT_SUPPORT:nw,HELP_CENTER:nk,TERMS_OF_SERVICE:nP,SWITCH_TO_EMPLOYER:nM,SWITCH_TO_EDU:nH,SWITCH_TO_ADMIN:nU,LOGOUT:nF,VIEW_ALL_TOGGLES:nB}=R,nj={isMobile:!1};e.s(["TopNav",0,({appName:e,currentPath:t,coreAppBaseUrl:a,haiAppBaseUrl:i,learnAppBaseUrl:o,accountNavItemElement:n,accountMenuItemElement:r,backLinkElement:s,translator:l,className:c,studentsSupportLink:d,termsOfServiceUrl:p,devAccounts:m,user:u,mobileNavItems:E,mobileNavItemElement:h,mobileNavConfigData:v,pageNavConfig:S,linkComponent:T,onNavigate:O,topNavOnly:_=!1,logoNavItem:L,logoNavItemElement:D,showYourProfile:C,showSwitchUsers:y,showDevAccounts:w,showTermsOfService:k,isUSRegion:M,isHaiInternal:U=!1,inDevelopment:j,hiddenTabs:K,pageNavRouteExtensions:$,pageMapExtensions:G})=>{let X=F({coreAppBaseUrl:a,haiAppBaseUrl:i,learnAppBaseUrl:o}),q=x.useMemo(()=>eR(K,null==S?void 0:S.hiddenTabs,{dedup:!0}),[K,null==S?void 0:S.hiddenTabs]),Q=x.useMemo(()=>eR(G,null==S?void 0:S.pageMapExtensions),[G,null==S?void 0:S.pageMapExtensions]),Z=x.useMemo(()=>({showYourProfile:C,showSwitchUsers:y,showDevAccounts:w,showTermsOfService:k,isUSRegion:M,isHaiInternal:U,inDevelopment:j,topNavOnly:_,user:u,currentApp:Object.assign(Object.assign({},X[e]),{currentPath:t,name:e}),appInfoMap:X,studentsSupportLink:d,termsOfServiceUrl:p,devAccounts:m,trackingConfig:(({user:e,appName:t})=>{let a=(null==e?void 0:e.userType)||f.Students,i=t===g.CONSUMER;return{[nI]:{name:"student-egg-ia-nav-link-click",trackingData:{text:"Notifications",href:"/notifications"},isExcluded:!i},[nT]:{name:"user_profile_view",schemaflowFactory:al,trackingData:{user_id_viewed:String(null==e?void 0:e.id),user_type_viewed:a,user_type_viewer:a,source:"TopNav",url:"u">typeof window?window.location.pathname:"",view_type:"Full",profile_page_type:"CXP"},isExcluded:!i},[nN]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"My Jobs",href:"/apps"},isExcluded:!i},[nO]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"My Meetings",href:`/stu/users/${null==e?void 0:e.id}/interviews`},isExcluded:!i},[n_]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"My Documents",href:"/docs"},isExcluded:!i},[nR]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Career Interests",href:`/stu/users/${null==e?void 0:e.id}/career_interests`},isExcluded:!i},[nL]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"My Reviews",href:`/stu/users/${null==e?void 0:e.id}/reviews`},isExcluded:!i},[nx]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Notification Preferences",href:"/notification-preferences"},isExcluded:!i},[nD]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"School Connections",href:"/affiliations"},isExcluded:!i},[nC]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Settings",href:"/settings"},isExcluded:!i},[ny]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Switch Users",href:"/user_switcher/options"},isExcluded:!i},[nw]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Support",href:"#"},isExcluded:!i},[nk]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Help Center",href:"/support"},isExcluded:!i},[nP]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Terms of Service",href:"/tos"},isExcluded:!i},[nM]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Switch to Employer",href:"/emp"},isExcluded:!i},[nH]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Switch to Career Services",href:"/edu"},isExcluded:!i},[nU]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Switch to Admin",href:"/admin"},isExcluded:!i},[nF]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"Log Out",href:"/logout"},isExcluded:!i},[nB]:{name:"consumer-egg-ia-dropdown-link-click",trackingData:{contentType:"profile",text:"View All Toggles",href:"/dev_toggles"},isExcluded:!i}}})({user:u,appName:e})}),[C,y,w,k,M,U,j,_,u,X,e,t,d,p,m]),ee=((e,t,a,i,o)=>{let n=x.useMemo(()=>V(t),[t]),{currentApp:r,appInfoMap:s,user:l}=e,c=(null==l?void 0:l.institutionId)||"",d=(null==l?void 0:l.id)||"";return x.useMemo(()=>{let e={[or]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/explore",titleText:n("explore"),titleAriaLabel:n("explore")},[oe]:{itemHomeApp:g.CONSUMER,href:"/feed",text:n("forYou"),ariaLabel:n("forYou"),titleText:n("feed"),titleAriaLabel:n("feed")},[i7]:{itemHomeApp:g.CONSUMER,href:"/feed/saved",text:n("saved"),ariaLabel:n("saved"),titleText:n("feed"),titleAriaLabel:n("feed")},[i3]:{itemHomeApp:g.CONSUMER,href:"/job-search",text:n("jobSearch"),ariaLabel:n("jobSearch"),titleText:n("jobs"),titleAriaLabel:n("jobs")},[ot]:{itemHomeApp:g.CONSUMER,href:"/saved-jobs",text:n("savedJobs"),ariaLabel:n("savedJobs"),titleText:n("jobs"),titleAriaLabel:n("jobs")},[oi]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/jobs-home",titleText:n("jobs"),titleAriaLabel:n("jobs")},[oo]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/jobs-collections",backNavigationHref:"/jobs-home",backNavigationLabel:n("jobsForYou")},[oa]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/job/",titleText:n("jobs"),titleAriaLabel:n("jobs")},[on]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/",titleText:n("home"),titleAriaLabel:n("home")},[oI]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:`/profiles/${d}`,siblingPaths:["/profiles"],titleText:n("yourProfile"),titleAriaLabel:n("yourProfile")},[os]:{isNotTab:!0,itemHomeApp:g.STUDENT,href:"/stu/events",titleText:n("events"),titleAriaLabel:n("events")},[ol]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/inbox",titleText:n("inbox"),titleAriaLabel:n("inbox")},[oc]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/notifications",titleText:n("notifications"),titleAriaLabel:n("notifications")},[od]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/employer-search",titleText:n("employers"),titleAriaLabel:n("employers")},[op]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/people",titleText:n("people"),titleAriaLabel:n("people")},[om]:{isNotTab:!0,itemHomeApp:g.STUDENT,href:`/stu/schools/${c}`,siblingPaths:eW,titleText:n("careerCenter"),titleAriaLabel:n("careerCenter")},[ou]:{isNotTab:!0,itemHomeApp:g.HAI,href:"/fellow",titleText:n("handshakeAI"),titleAriaLabel:n("handshakeAI")},[oE]:{isNotTab:!0,itemHomeApp:g.HAI,href:"/fellow-home",titleText:n("handshakeAI"),titleAriaLabel:n("handshakeAI")},[of]:{itemHomeApp:g.HAI,href:"/fellow/projects",text:n("projects"),ariaLabel:n("projects"),titleText:n("handshakeAI"),titleAriaLabel:n("handshakeAI")},[og]:{sharedTab:of,href:"/fellow/project"},[oh]:{itemHomeApp:g.HAI,sharedTab:of,pathPattern:"/fellow/:uuid:/"},[ov]:{itemHomeApp:g.HAI,href:"/fellow/payments",text:n("payments"),ariaLabel:n("payments"),titleText:n("handshakeAI"),titleAriaLabel:n("handshakeAI")},[oS]:{sharedTab:ov,href:"/fellow/payments-setup"},[oA]:{itemHomeApp:g.HAI,href:"/fellow/referrals",text:n("referrals"),ariaLabel:n("referrals"),titleText:n("handshakeAI"),titleAriaLabel:n("handshakeAI")},[ob]:{itemHomeApp:g.HAI,sharedTab:of,pathPattern:"/fellow/projects/:uuid:/invitation"},[oT]:{sharedTab:of,href:"/fellow/dashboard"},[oN]:{sharedTab:of,href:"/fellow/welcome"},[oO]:{sharedTab:of,href:"/fellow/forms/"},[o_]:{sharedTab:of,href:"/fellow/interview-completed"},[oR]:{sharedTab:of,href:"/fellow/move-application"},[oL]:{sharedTab:of,href:"/fellow/onboarding-webinar-scheduling"},[ox]:{sharedTab:of,href:"/fellow/thank-you"},[oD]:{sharedTab:of,href:"/customers"},[oC]:{sharedTab:of,href:"/customers/dashboard"},[oy]:{sharedTab:of,href:"/customers/contract/"},[ow]:{sharedTab:of,href:"/fellows-bpo"},[ok]:{sharedTab:of,href:"/fellows-bpo/dashboard"},[oP]:{pathPattern:"/annotations/operator/annotation-project/:uuid:/roles"},[oM]:{pathPattern:"/annotations/operator/annotation-project/:uuid:/roles/configurations"},[oH]:{pathPattern:"/annotations/operator/annotation-project/:uuid:/pay-rates"},[oU]:{pathPattern:"/annotations/operator/annotation-project/:uuid:/incentives"},[oF]:{isNotTab:!0,itemHomeApp:g.HAI,href:"/deactivated",titleText:n("handshakeAI"),titleAriaLabel:n("handshakeAI")},[oB]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/apps",siblingPaths:["/apps"],titleText:n("myJobs"),titleAriaLabel:n("myJobs")},[oj]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/docs",siblingPaths:["/docs"],titleText:n("myDocuments"),titleAriaLabel:n("myDocuments")},[oz]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/notification-preferences",titleText:n("notificationPreferences"),titleAriaLabel:n("notificationPreferences")},[o$]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/affiliations",siblingPaths:["/affiliations"],titleText:n("affiliations"),titleAriaLabel:n("affiliations")},[oG]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/settings",siblingPaths:["/settings"],titleText:n("settings"),titleAriaLabel:n("settings")},[oY]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/user_switcher/options",titleText:n("switchUsers"),titleAriaLabel:n("switchUsers")},[oW]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/dev_toggles",titleText:n("viewAllToggles"),titleAriaLabel:n("viewAllToggles")},[oJ]:{isNotTab:!0,itemHomeApp:g.CONSUMER,href:"/blocked-users",siblingPaths:["/blocked-users"],titleText:n("blockedUsers"),titleAriaLabel:n("blockedUsers")},[oV]:{isNotTab:!0,itemHomeApp:g.STUDENT,pathPattern:"/stu/users/:id:/interviews",titleText:n("myMeetings"),titleAriaLabel:n("myMeetings")},[oK]:{isNotTab:!0,itemHomeApp:g.STUDENT,pathPattern:"/stu/users/:id:/career_interests",titleText:n("myCareerInterests"),titleAriaLabel:n("myCareerInterests")}};return function({navItems:e,location:t,currentAppInfo:a,appInfoMap:i,pageMapExtensions:o,hiddenTabs:n}){var r,s,l,c,d,p;let m=function(e){var t;let a={};for(let[i,o]of Object.entries(e))o.sharedTab&&e[o.sharedTab]?a[i]=Object.assign(Object.assign({},e[o.sharedTab]),{href:o.href,sharedTab:o.sharedTab,pathPattern:o.pathPattern,itemHomeApp:null!=(t=o.itemHomeApp)?t:e[o.sharedTab].itemHomeApp}):a[i]=o;return a}(e),u=function(e,t,a,i){if(!e)return;let o=e.split("?")[0],n=e=>{var t,a,i,o;return null!=(o=null!=(a=null==(t=e.href)?void 0:t.length)?a:null==(i=e.pathPattern)?void 0:i.length)?o:0},r=Object.entries(t).filter(([,e])=>void 0!==e.href||void 0!==e.pathPattern).sort(([,e],[,t])=>n(t)-n(e)),s=(e,t)=>!!(e===t||e.startsWith(t)&&(e.length===t.length||"/"===e[t.length])),l=e=>/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(e),c=e=>/^\d+$/.test(e)||l(e),d=(e,t)=>{let a=e.split("/").filter(Boolean),i=t.split("/").filter(Boolean);if(i.length>a.length)return!1;for(let e=0;e<i.length;e+=1){let t=i[e],o=a[e];if(":uuid:"===t){if(!l(o))return!1}else if(":id:"===t){if(!c(o))return!1}else if(t!==o)return!1}return!0},p=t=>{var a,i,n;for(let[e,i]of t){let{pathPattern:t}=i;if(t&&d(o,t))return null!=(a=i.sharedTab)?a:e}for(let[e,a]of t){let{href:t,sharedTab:i}=a;if(t&&s(o,t))return null!=i?i:e}for(let[e,a]of t)for(let t of null!=(i=a.siblingPaths)?i:[])if(s(o,t))return null!=(n=a.sharedTab)?n:e;for(let[a,i]of t){let{href:t,sharedTab:o}=i;if(t&&"/"!==t&&e.includes(t))return null!=o?o:a}};if(a&&i){let e=a.name,t=a.appType,o=p(r.filter(([,t])=>t.itemHomeApp===e));if(o)return o;let n=p(r.filter(([,a])=>{var o;let n=a.itemHomeApp;return n&&(null==(o=i[n])?void 0:o.appType)===t&&a.itemHomeApp!==e}));if(n)return n;if("CORE"!==t){let e=p(r.filter(([,e])=>{var t;let a=e.itemHomeApp;return a&&(null==(t=i[a])?void 0:t.appType)==="CORE"}));if(e)return e}}return p(r)}(a.currentPath||"/",m,a,i);if(!u)return console.error(`No current page name found for path: ${a.currentPath}`),{};let E=function(e,t,a){var i,o;let n=new Map(H.map(e=>[e.name,e]));if(a)for(let e of a){let t=n.get(e.name);e.extendChildren&&t?n.set(e.name,Object.assign(Object.assign({},t),{children:[...null!=(i=t.children)?i:[],...null!=(o=e.children)?o:[]]})):n.set(e.name,e)}let r=new Map,s=new Set,l=[t];for(;l.length>0;){let e=l.shift();if(!e||s.has(e))continue;s.add(e);let t=n.get(e);if(null==t?void 0:t.children)for(let a of t.children)r.has(a)||r.set(a,e),l.push(a)}let c=n.get(e);if(!c)return{current:{name:e},parent:void 0,siblings:[],breadcrumbs:[]};let d=r.get(e),p=d?n.get(d):void 0,m=[];(null==p?void 0:p.children)&&(m=p.children.map(e=>n.get(e)).filter(e=>void 0!==e));let u=[],E=d;for(;E;){let e=n.get(E);e&&u.unshift(e),E=r.get(E)}return{current:c,parent:p,siblings:m,breadcrumbs:u}}(u,`Root-${a.name}`,o),g=W({name:E.current.name,data:Object.assign(Object.assign({},e[E.current.name]),{show:!0,isSelected:!0}),location:t,currentAppInfo:a,appInfoMap:i}),h=E.siblings.filter(t=>{var a,i;return void 0!==e[t.name]&&!(null==(a=e[t.name])?void 0:a.isNotTab)&&!(null==n?void 0:n.includes(t.name))&&!(null==(i=e[t.name])?void 0:i.sharedTab)}).map(o=>W({name:o.name,data:Object.assign(Object.assign({},e[o.name]),{show:!0,isSelected:o.name===E.current.name}),location:t,currentAppInfo:a,appInfoMap:i})),f=E.breadcrumbs.filter(t=>void 0!==e[t.name]).map(o=>W({name:o.name,data:Object.assign(Object.assign({},e[o.name]),{show:!0}),location:t,currentAppInfo:a,appInfoMap:i})),b=E.parent,v=e[E.current.name];return Object.assign(Object.assign({},g),{pageNavOptions:{titleText:null!=(s=null!=(r=null==v?void 0:v.titleText)?r:null==b?void 0:b.titleText)?s:"",titleAriaLabel:null!=(c=null!=(l=null==v?void 0:v.titleAriaLabel)?l:null==b?void 0:b.titleAriaLabel)?c:"",backNavigationHref:null!=(d=null==v?void 0:v.backNavigationHref)?d:null==b?void 0:b.backNavigationHref,backNavigationLabel:null!=(p=null==v?void 0:v.backNavigationLabel)?p:null==b?void 0:b.backNavigationLabel,isNotTab:null==v?void 0:v.isNotTab,siblings:h,breadcrumbs:f}})}({navItems:o?Object.assign(Object.assign({},e),o):e,location:A.TOPBAR_PAGE_NAV,currentAppInfo:r,appInfoMap:s,pageMapExtensions:a,hiddenTabs:i})},[n,r,s,a,i,o,c,d])})(Z,l,Q,q,$),{accountNavItems:et}=((e,t)=>{let a=x.useMemo(()=>V(t),[t]),{user:i,currentApp:o,appInfoMap:n,trackingConfig:r,isHaiInternal:s}=e,{userType:l,unseenNotificationsCount:c}=i,d=l===f.Students,p=l===f.Employers,m=l===f.CareerServices,u=o.name===g.HAI,E="/notifications?ref=navbar",h=B("notificationsAriaLabel",c,a),b=x.useMemo(()=>({[oX]:{show:p,href:"/emp",itemHomeApp:g.EMP,text:a("openEmployerApp"),ariaLabel:a("openEmployerApp"),target:I.BLANK,dataHook:"employer-topbar-open-employer-app"},[oq]:{show:m,href:"/edu",itemHomeApp:g.EDU,text:a("openEduApp"),ariaLabel:a("openEduApp"),target:I.BLANK,dataHook:"edu-topbar-open-edu-app"},[oQ]:{show:u&&!s,href:"#",itemHomeApp:g.HAI,text:a("contactSupport"),ariaLabel:a("contactSupport"),dataHook:"account-nav-contact-support",tracking:r[oQ]||{}},[oZ]:{show:d,href:E,itemHomeApp:g.CONSUMER,icon:x.createElement(z.Rosetta.Notification,{width:z.IconSize.Medium}),text:a("notifications"),ariaLabel:h,numberBadge:c,dataHook:"student-topbar-notifications-link",tracking:r[oZ]||{}}}),[a,E,h,c,d,p,m,u,s,r]);return{accountNavItems:x.useMemo(()=>J({navItems:b,location:o0,currentAppInfo:o,appInfoMap:n,itemsOrder:o1}),[b,o,n])}})(Z,l),{accountMenuItems:ea}=((e,t)=>{let a=x.useMemo(()=>V(t),[t]),{user:i,currentApp:o,appInfoMap:n,trackingConfig:r,showYourProfile:s,showSwitchUsers:l,showDevAccounts:c,showTermsOfService:d,isUSRegion:p,isHaiInternal:m,inDevelopment:u,studentsSupportLink:E,termsOfServiceUrl:h,devAccounts:v}=e,{id:S,slug:A,institutionId:T,userType:O,applicationsUpdatedCount:_,isAffiliatedStudent:R,haiProfileId:L}=i,D=O===f.Students,C=O===f.CareerServices,y=O===f.Employers,w=O===f.Admins,k=o.name===g.HAI;return x.useMemo(()=>({accountMenuItems:[...J({navItems:{[o2]:{show:k?!!L:void 0!==S,href:m?`/admin/profiles/${L}`:A?`/profiles/${A}`:`/profiles/${S}`,itemHomeApp:m?g.HAI:g.CONSUMER,text:a("myProfile"),ariaLabel:a("myProfile"),dataHook:"account-menu-my-profile",tracking:r[o2]||{}},[o4]:{show:k&&!!L,itemHomeApp:g.HAI,itemRenderType:b.COPYABLE_ID,text:L||"",ariaLabel:m?a("userId"):a("fellowId"),copyableValue:L,dataHook:"account-menu-hai-profile-id"},[nc]:{show:m,href:"/annotations/operator",itemHomeApp:g.HAI,text:a("annotations"),ariaLabel:a("annotations"),dataHook:"account-menu-annotations"},[nd]:{show:m,href:"/admin",itemHomeApp:g.HAI,text:a("admin"),ariaLabel:a("admin"),dataHook:"account-menu-admin"},[np]:{show:m,href:"/payouts",itemHomeApp:g.HAI,text:a("payouts"),ariaLabel:a("payouts"),dataHook:"account-menu-payouts"},[nm]:{show:m,href:"/fellow/dashboard",itemHomeApp:g.HAI,text:a("fellowDashboard"),ariaLabel:a("fellowDashboard"),dataHook:"account-menu-fellow-dashboard"},[o9]:Object.assign(Object.assign(Object.assign({show:D,href:"/apps?ref=account-dropdown",itemHomeApp:g.CONSUMER,text:a("myJobs"),ariaLabel:B("myJobsAriaLabel",_,a)},Y("numberBadge",_,!0)),Y("numberBadgeStatus",N.Negative,!!_)),{dataHook:"account-menu-my-jobs",tracking:r[o9]||{}}),[o8]:{show:R,href:`/stu/users/${S}/interviews`,itemHomeApp:g.STUDENT,text:a("myMeetings"),ariaLabel:a("myMeetings"),dataHook:"account-menu-my-meetings",tracking:r[o8]||{}},[o5]:{show:D,href:"/docs",itemHomeApp:g.CONSUMER,text:a("myDocuments"),ariaLabel:a("myDocuments"),dataHook:"account-menu-my-documents",tracking:r[o5]||{}},[o6]:{show:D,href:`/stu/users/${S}/career_interests`,itemHomeApp:g.STUDENT,text:a("myCareerInterests"),ariaLabel:a("myCareerInterests"),dataHook:"account-menu-career-interests",tracking:r[o6]||{}},[o3]:{show:!1,href:`/stu/users/${S}/reviews`,itemHomeApp:g.STUDENT,text:a("myReviews"),ariaLabel:a("myReviews"),dataHook:"account-menu-my-reviews",tracking:r[o3]||{}},[ng]:{show:D||m,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider"},[o7]:{show:D,href:"/notification-preferences",itemHomeApp:g.CONSUMER,text:a("notificationPreferences"),ariaLabel:a("notificationPreferences"),dataHook:"account-menu-notification-preferences",tracking:r[o7]||{}},[ne]:{show:D,href:"/affiliations",itemHomeApp:g.CONSUMER,text:a("schoolConnections"),ariaLabel:a("schoolConnections"),dataHook:"account-menu-school-connections",tracking:r[ne]||{}},[nt]:{show:!m,href:"/settings",itemHomeApp:g.CONSUMER,text:a("settings"),ariaLabel:a("settings"),dataHook:"account-menu-settings",tracking:r[nt]||{}},[nh]:{show:l,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider"},[na]:{show:l,href:"/user_switcher/options",itemHomeApp:g.CONSUMER,text:a("switchUsers"),ariaLabel:a("switchUsers"),dataHook:"account-menu-switch-users",tracking:r[na]||{}},[nf]:{show:!0,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider"},[ni]:{show:!w,href:"#",itemHomeApp:g.CONSUMER,text:a("contactSupport"),ariaLabel:a("contactSupport"),dataHook:"decagon-chatbot",tracking:r[ni]||{}},[no]:{show:!m,href:E,itemHomeApp:g.CONSUMER,text:a("helpCenter"),ariaLabel:a("helpCenter"),dataHook:"account-menu-help-center",tracking:r[no]||{}},[nn]:{show:d&&p,href:h,itemHomeApp:g.CONSUMER,text:a("termsOfService"),ariaLabel:a("termsOfService"),dataHook:"account-menu-terms-of-service",tracking:r[nn]||{}},[nb]:{show:(y||C||w)&&!k,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider"},[nr]:{show:y&&!k,href:"/emp",itemHomeApp:g.EMP,text:a("switchToEmployer"),ariaLabel:a("switchToEmployer"),target:I.BLANK,dataHook:"account-menu-switch-to-employer",tracking:r[nr]||{}},[ns]:{show:C&&!k,href:"/edu",itemHomeApp:g.EDU,text:a("switchToCareerServices"),ariaLabel:a("switchToCareerServices"),target:I.BLANK,dataHook:"account-menu-switch-to-edu",tracking:r[ns]||{}},[nl]:{show:w&&!k,href:"/admin",itemHomeApp:g.CONSUMER,text:a("switchToAdmin"),ariaLabel:a("switchToAdmin"),dataHook:"account-menu-switch-to-admin",tracking:r[nl]||{}},[nu]:{show:!0,href:"/logout",itemHomeApp:g.CONSUMER,text:a("logOut"),ariaLabel:a("logOut"),dataHook:"account-menu-logout",tracking:r[nu]||{}},[nv]:{show:u&&!k,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider"},[nE]:{show:u&&!k,href:"/dev_toggles",itemHomeApp:g.CONSUMER,text:a("viewAllToggles"),ariaLabel:a("viewAllToggles"),dataHook:"account-menu-view-all-toggles",tracking:r[nE]||{}},[nS]:{show:c&&v.length>0,itemHomeApp:g.CONSUMER,text:"divider",ariaLabel:"divider"}},location:nA,currentAppInfo:o,appInfoMap:n,itemsOrder:P}),...c?v.map((e,t)=>({name:`devAccount-${t}`,href:e.url,itemRenderType:b.STANDARD_LINK,location:nA,itemHomeApp:g.CONSUMER,currentAppName:o.name,options:{show:!0,order:P.length+t,text:e.email,ariaLabel:e.email,resolvedHref:e.url,dataHook:`account-menu-dev-account-${t}`}})):[]]}),[o,n,r,s,l,c,d,p,u,E,h,v,D,C,y,w,k,m,R,S,A,T,_,L,t,a])})(Z,l),ei=x.useMemo(()=>{var e;let t=et.find(e=>e.name===R.NOTIFICATIONS);return null==(e=null==t?void 0:t.options)?void 0:e.numberBadge},[et]),eo=x.useMemo(()=>et.reduce((e,t)=>{if(t.options.show){let a=i5(t);e.push(x.createElement(i6,{key:t.name,navItem:t,navItemElement:n?x.createElement(n,{navItem:t,configData:Z}):x.createElement(a,{navItem:t})}))}return e},[]),[et,n,Z]),en=x.useMemo(()=>ea.map(e=>x.createElement(iL,{key:e.name,navItem:e,navItemElement:r?x.createElement(r,{navItem:e,configData:Z}):x.createElement(iR,{navItem:e})})),[ea,r,Z]),er=x.useMemo(()=>{var e;return(null==(e=ee.pageNavOptions)?void 0:e.backNavigationHref)?ee:null},[ee]),es=x.useMemo(()=>{if(!_&&E&&0!==E.length)return x.createElement(aY,{navItems:E,dataHook:`${e}-mobile-nav`,navItemElement:h,configData:v})},[_,E,e,h,v]),el=x.useMemo(()=>{if(er)return s?x.createElement(s,{navItem:er,configData:Z}):x.createElement(iJ,{navItem:er})},[er,s,Z]),ec=x.useMemo(()=>({currentApp:Z.currentApp,appInfoMap:Z.appInfoMap,user:Z.user,trackingConfig:Z.trackingConfig}),[Z]),ed=x.useMemo(()=>{if(!_||!L)return;let e=D?x.createElement(D,{navItem:L,configData:ec,renderContext:nj}):x.createElement(eT,{navItem:L});return x.createElement(a2,{navItem:L,navItemElement:e})},[_,L,D,ec]);return x.createElement(a0,{className:c,dataHook:`${e}-topnav`,logo:ed,mobileMenu:es,pageNav:x.createElement(iu,{pageConfig:ee,translator:l,backLink:el,pageNavConfig:S,linkComponent:T,onNavigate:O}),accountNavItems:eo,accountMenu:x.createElement(iG,{user:u,menuItems:en,translator:l,notificationCount:ei})})}],3815594);var nV=e.i(5499050),nV=nV;let nK={appName:g.CONSUMER,currentPath:"/",user:{userType:f.Students,marketplace:"NA",isAffiliatedStudent:!1,isConfirmedStudent:!1,unreadMessagesCount:0,unseenNotificationsCount:0,applicationsUpdatedCount:0},showYourProfile:!0,showCareerCenter:!0},nz={showFeed:!0,showLiveRentFree:!1,isEnabledJobsHome:!1,isEnabledExplore:!1,isEnabledHAIExperiment:!1,isLearnAvailable:!1,isEnabledUnaffiliatedPeopleSearch:!1,isEnabledAltJobsDisplay:!1,isResponsive:!0,swapExploreAndJobs:!1},n$={showSwitchUsers:!1,showDevAccounts:!1,showTermsOfService:!0,isUSRegion:!0,inDevelopment:!1,studentsSupportLink:"",termsOfServiceUrl:"",devAccounts:[]},nG=x.createContext(null);e.s(["NavigationProvider",0,function({children:e,initialConfig:t}){let[a,i]=x.useState(()=>Object.assign(Object.assign(Object.assign({},nK),t),{sideNav:Object.assign(Object.assign({},nz),null==t?void 0:t.sideNav),topNav:Object.assign(Object.assign({},n$),null==t?void 0:t.topNav)})),[o,n]=x.useState(null),r=x.useCallback(e=>{i(t=>{let{sideNav:a,topNav:i,user:o}=e,n=(0,K.__rest)(e,["sideNav","topNav","user"]),r=a?Object.assign(Object.assign({},t.sideNav),a):t.sideNav,s=i?Object.assign(Object.assign({},t.topNav),i):t.topNav,l=o?Object.assign(Object.assign({},t.user),o):t.user,c=Object.assign(Object.assign(Object.assign({},t),n),{user:l,sideNav:r,topNav:s});return(0,nV.default)(t,c)?t:c})},[]),s=F({coreAppBaseUrl:a.coreAppBaseUrl,haiAppBaseUrl:a.haiAppBaseUrl,learnAppBaseUrl:a.learnAppBaseUrl}),l=x.useMemo(()=>Object.assign(Object.assign(Object.assign({},nz),a.sideNav),{showYourProfile:a.showYourProfile,showCareerCenter:a.showCareerCenter,user:a.user,currentApp:Object.assign(Object.assign({},s[a.appName]),{currentPath:a.currentPath,name:a.appName}),appInfoMap:s,trackingConfig:aS({user:a.user,appName:a.appName,jobsHomeToggleVariation:a.sideNav.jobsHomeToggleVariation,sidenavImpressionTracking:a.sideNav.sidenavImpressionTracking})}),[a,s]),{sidebarNavItems:c,logoNavItem:d}=t7(l,a.translator),p=x.useCallback(()=>{let{sideNav:e,topNav:t}=a;return Object.assign(Object.assign(Object.assign({},(0,K.__rest)(a,["sideNav","topNav"])),nz),e)},[a]),m=x.useCallback(()=>{let{topNav:e,sideNav:t}=a;return Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({},(0,K.__rest)(a,["topNav","sideNav"])),n$),e),{mobileNavItems:a.topNavOnly?void 0:c,mobileNavItemElement:a.topNavOnly?void 0:a.sideNav.mobileNavItemElement,mobileNavConfigData:a.topNavOnly||!a.sideNav.mobileNavItemElement?void 0:l,pageNavConfig:o}),a.topNavOnly?{logoNavItem:d,logoNavItemElement:a.logoNavItemElement}:{})},[a,c,l,o,d]),u=x.useMemo(()=>({config:a,setConfig:r,getSideNavProps:p,getTopNavProps:m,mobileNavItems:c,pageNavConfig:o,setPageNavConfig:n}),[a,r,p,m,c,o,n]);return x.createElement(nG.Provider,{value:u},e)},"useNavigation",0,function(){let e=x.useContext(nG);if(!e)throw Error("useNavigation must be used within a NavigationProvider. Wrap your app with <NavigationProvider> or use TopNav/SideNav directly with props.");return e}],7227066),e.s([],6881924),e.s(["GlobalNavUserTypeEnum",0,f],2581710)}]);
+
+//# sourceMappingURL=3w_1fudj8ygbk.js.map
